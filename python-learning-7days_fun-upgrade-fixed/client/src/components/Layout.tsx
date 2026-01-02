@@ -43,8 +43,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             const isActive = location === `/day/${day.day}`;
             const isLocked = day.day > lastActiveDay;
 
-            return (
-              {isLocked ? (
+            return isLocked ? (
               <div
                 key={day.day}
                 role="button"
@@ -97,7 +96,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                   )}
                 </div>
               </Link>
-            )}
             );
           })}
         </div>

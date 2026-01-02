@@ -8,6 +8,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, Terminal, CheckCircle2, Circle } from "lucide-react";
 import { useState } from "react";
+import { toast } from "sonner";
 import planData from "../../../data/plan.json";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
@@ -40,17 +41,50 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           {planData.days.map((day) => {
             const isCompleted = days[day.day]?.completed;
             const isActive = location === `/day/${day.day}`;
-            const isLocked = day.day > lastActiveDay && !isCompleted;
+            const isLocked = day.day > lastActiveDay;
 
             return (
-              <Link key={day.day} href={isLocked ? "#" : `/day/${day.day}`}>
+              {isLocked ? (
+              <div
+                key={day.day}
+                role="button"
+                aria-disabled="true"
+                tabIndex={0}
+                className={cn(
+                  "flex items-center gap-3 p-3 border-2 transition-all font-mono text-sm mb-2",
+                  isActive
+                    ? "bg-black text-white border-black translate-x-1 shadow-[4px_4px_0px_0px_rgba(0,0,0,0.2)]"
+                    : "bg-white border-black hover:bg-gray-100",
+                  "opacity-50 cursor-not-allowed bg-gray-100"
+                )}
+                onClick={() => {
+                  toast("🔒 还没解锁：请先完成前一天");
+                  if (isMobileOpen) setIsMobileOpen(false);
+                }}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter" || e.key === " ") {
+                    e.preventDefault();
+                    toast("🔒 还没解锁：请先完成前一天");
+                    if (isMobileOpen) setIsMobileOpen(false);
+                  }
+                }}
+              >
+                <div className="font-bold text-lg w-6">{day.day}</div>
+                <div className="flex-1 truncate">{day.title}</div>
+                {isCompleted ? (
+                  <CheckCircle2 size={16} className="text-green-600" />
+                ) : (
+                  <Circle size={16} className="text-gray-300" />
+                )}
+              </div>
+            ) : (
+              <Link key={day.day} href={`/day/${day.day}`}>
                 <div
                   className={cn(
                     "flex items-center gap-3 p-3 border-2 transition-all cursor-pointer font-mono text-sm mb-2",
                     isActive
                       ? "bg-black text-white border-black translate-x-1 shadow-[4px_4px_0px_0px_rgba(0,0,0,0.2)]"
-                      : "bg-white border-black hover:bg-gray-100",
-                    isLocked && "opacity-50 cursor-not-allowed bg-gray-100"
+                      : "bg-white border-black hover:bg-gray-100"
                   )}
                   onClick={() => isMobileOpen && setIsMobileOpen(false)}
                 >
@@ -63,6 +97,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                   )}
                 </div>
               </Link>
+            )}
             );
           })}
         </div>

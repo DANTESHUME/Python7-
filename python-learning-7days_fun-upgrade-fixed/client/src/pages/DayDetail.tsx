@@ -149,7 +149,7 @@ function LockedGate({ requiredDay, targetDay }: { requiredDay: number; targetDay
 export default function DayDetail() {
   const [match, params] = useRoute("/day/:id");
   const [, setLocation] = useLocation();
-  const { days, lastActiveDay, completeDay, save今日作业, saveReview } = useProgressStore();
+  const { days, lastActiveDay, completeDay, saveHomework, saveReview } = useProgressStore();
   const [copied, setCopied] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
 
@@ -284,7 +284,7 @@ if (dayId > lastActiveDay) {
             placeholder="在此粘贴你的代码或运行结果..."
             className="min-h-[150px] font-mono border-2 border-black focus:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all"
             value={progress.homework}
-            onChange={(e) => save今日作业(dayId, e.target.value)}
+            onChange={(e) => saveHomework(dayId, e.target.value)}
           />
         </CardContent>
       </Card>

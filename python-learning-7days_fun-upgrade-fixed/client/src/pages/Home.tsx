@@ -7,6 +7,7 @@ import { Terminal, Play, RotateCcw, CheckCircle2, Lock } from "lucide-react";
 import planData from "../../../data/plan.json";
 import { cn } from "@/lib/utils";
 import { levelFromXp, levelProgressPercent, nextLevelXp } from "@/lib/gamification";
+import { toast } from "sonner";
 
 export default function Home() {
   const { days, lastActiveDay, resetProgress, xp, streak, badges } = useProgressStore();
@@ -122,14 +123,52 @@ export default function Home() {
           const isLocked = day.day > lastActiveDay && !isCompleted;
           const isCurrent = day.day === lastActiveDay && !isCompleted;
 
-          return (
-            <Link key={day.day} href={isLocked ? "#" : `/day/${day.day}`}>
-              <Card 
+          return isLocked ? (
+            <div
+              key={day.day}
+              role="button"
+              tabIndex={0}
+              onClick={() => toast("🔒 还没解锁：请先完成前一天")}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") toast("🔒 还没解锁：请先完成前一天");
+              }}
+              className="outline-none"
+            >
+              <Card
                 className={cn(
-                  "h-full border-2 border-black transition-all duration-200",
-                  isLocked 
-                    ? "bg-gray-100 opacity-75 cursor-not-allowed" 
-                    : "bg-white hover:-translate-y-1 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] cursor-pointer",
+                  "h-full border-2 border-black transition-all duration-200 bg-gray-100 opacity-75 cursor-not-allowed",
+                  isCurrent && "ring-2 ring-black ring-offset-2"
+                )}
+              >
+                <CardHeader className="border-b-2 border-black pb-3">
+                  <div className="flex justify-between items-start">
+                    <CardTitle className="font-mono text-xl font-bold uppercase">
+                      Day {day.day}
+                    </CardTitle>
+                    <Lock className="text-gray-400 h-5 w-5" />
+                  </div>
+                </CardHeader>
+                <CardContent className="pt-4 space-y-4">
+                  <h3 className="font-bold text-lg leading-tight min-h-[3rem]">
+                    {day.title}
+                  </h3>
+                  <p className="text-sm text-gray-600 line-clamp-3 font-mono">
+                    {day.goal}
+                  </p>
+
+                  <div className="pt-2">
+                    <span className="inline-block px-2 py-1 text-xs font-bold border border-black bg-gray-200 text-gray-700">
+                      未解锁
+                    </span>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          ) : (
+            <Link key={day.day} href={`/day/${day.day}`}>
+              <Card
+                className={cn(
+                  "h-full border-2 border-black transition-all duration-200 bg-white hover:-translate-y-1 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] cursor-pointer",
                   isCurrent && "ring-2 ring-black ring-offset-2"
                 )}
               >
@@ -140,8 +179,6 @@ export default function Home() {
                     </CardTitle>
                     {isCompleted ? (
                       <CheckCircle2 className="text-green-600 h-6 w-6" />
-                    ) : isLocked ? (
-                      <Lock className="text-gray-400 h-5 w-5" />
                     ) : null}
                   </div>
                 </CardHeader>
@@ -152,17 +189,19 @@ export default function Home() {
                   <p className="text-sm text-gray-600 line-clamp-3 font-mono">
                     {day.goal}
                   </p>
-                  
-                  {!isLocked && (
-                    <div className="pt-2">
-                      <span className={cn(
+
+                  <div className="pt-2">
+                    <span
+                      className={cn(
                         "inline-block px-2 py-1 text-xs font-bold border border-black",
-                        isCompleted ? "bg-green-100 text-green-800" : "bg-yellow-100 text-yellow-800"
-                      )}>
-                        {isCompleted ? "已完成" : "进行中"}
-                      </span>
-                    </div>
-                  )}
+                        isCompleted
+                          ? "bg-green-100 text-green-800"
+                          : "bg-yellow-100 text-yellow-800"
+                      )}
+                    >
+                      {isCompleted ? "已完成" : "进行中"}
+                    </span>
+                  </div>
                 </CardContent>
               </Card>
             </Link>

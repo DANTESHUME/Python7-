@@ -1,0 +1,518 @@
+{
+  "title": "7 天 Python（为 AI 协作服务）",
+  "description": "帮助零基础用户用最短路径掌握“为 AI 协作服务”的 Python 核心能力。",
+  "days": [
+    {
+      "day": 1,
+      "title": "环境与最小脚本",
+      "goal": "完成 Python 环境准备，写出第一行能运行的代码，理解变量与字符串。",
+      "sections": [
+        {
+          "title": "1.1 为什么是 Python？",
+          "content": "Python 是 AI 时代的通用语言。它语法简洁，像英语一样易读。更重要的是，几乎所有的 AI 工具（如 ChatGPT、Claude 的 API）都完美支持 Python。掌握它，你就拥有了指挥 AI 干活的“魔法棒”。"
+        },
+        {
+          "title": "1.2 安装与运行 (Windows 优先)",
+          "content": "1. 访问 python.org 下载最新版。\n2. 安装时**务必勾选** `Add Python to PATH`（这步最关键！）。\n3. 打开 CMD (命令提示符)，输入 `python --version`，看到版本号即成功。\n4. 创建一个文件 `hello.py`，用记事本打开。"
+        },
+        {
+          "title": "1.3 第一行代码与变量",
+          "content": "编程就是处理数据。我们用`变量`来存数据，用`print`来显示数据。字符串用引号包裹。f-string 是 Python 最强大的字符串格式化工具，能把变量直接塞进句子里。"
+        }
+      ],
+      "exampleCode": "# 定义变量\nname = \"Manus\"\nrole = \"AI Agent\"\n\n# 普通输出\nprint(\"Hello, World!\")\n\n# f-string 格式化输出 (推荐)\nprint(f\"我是 {name}，我是一个 {role}。\")\n\n# 简单的数学运算\nprint(f\"1 + 1 = {1 + 1}\")",
+      "exercises": [
+        {
+          "id": "d1_ex1",
+          "type": "choice",
+          "question": "在 Python 中，如何正确地将变量 name 的值嵌入到字符串中？",
+          "options": [
+            "print(\"Hello {name}\")",
+            "print(f\"Hello {name}\")",
+            "print(\"Hello \" + name)",
+            "print(name.format(\"Hello\"))"
+          ],
+          "answer": "print(f\"Hello {name}\")",
+          "hint": "记得在引号前加一个小写的 f，这是 f-string 的标志。"
+        },
+        {
+          "id": "d1_ex2",
+          "type": "predict",
+          "question": "name = \"Python\"\nprint(f\"{name} is good\")",
+          "answer": "Python is good",
+          "hint": "f-string 会把 {name} 替换成变量 name 的值。"
+        }
+      ],
+      "homework": {
+        "title": "自我介绍生成器",
+        "description": "编写一个脚本，定义 `name` (姓名), `age` (年龄), `hobby` (爱好) 三个变量，然后用 f-string 打印出一句完整的自我介绍。",
+        "template": "name = \"...\"\nage = ...\nhobby = \"...\"\nprint(f\"...\")"
+      },
+      "review": [
+        "你成功安装 Python 并看到版本号了吗？",
+        "你理解 f-string 中 {} 的作用了吗？",
+        "遇到 SyntaxError 时，你检查过引号是否成对了吗？"
+      ],
+      "troubleshooting": [
+        {
+          "error": "'python' 不是内部或外部命令...",
+          "solution": "这是因为安装时没勾选 `Add Python to PATH`。建议重新安装并勾选该选项，或者手动配置环境变量。"
+        },
+        {
+          "error": "SyntaxError: invalid syntax",
+          "solution": "语法错误。检查是否漏了括号、引号，或者用了中文标点符号。"
+        },
+        {
+          "error": "IndentationError: unexpected indent",
+          "solution": "缩进错误。Python 对空格很敏感，不要在行首随便加空格。"
+        },
+        {
+          "error": "NameError: name 'x' is not defined",
+          "solution": "使用了未定义的变量。检查变量名是否拼写正确，或者是否在使用前赋值了。"
+        },
+        {
+          "error": "EOL while scanning string literal",
+          "solution": "字符串没有结尾。检查是否漏了右边的引号。"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "title": "列表/字典与循环",
+      "goal": "掌握 Python 最常用的两种数据结构：列表 (List) 和字典 (Dict)，并学会用循环遍历它们。",
+      "sections": [
+        {
+          "title": "2.1 列表 (List)：有序的容器",
+          "content": "列表就像一个购物清单，可以存一堆东西。用方括号 `[]` 表示。你可以通过索引（从 0 开始）来访问里面的元素。"
+        },
+        {
+          "title": "2.2 字典 (Dict)：带标签的柜子",
+          "content": "字典存的是“键值对” (Key-Value)，就像查字典一样，通过“词”（Key）找到“解释”（Value）。用花括号 `{}` 表示。AI 返回的数据通常都是这种格式（JSON）。"
+        },
+        {
+          "title": "2.3 循环 (For Loop)：让机器重复劳动",
+          "content": "循环是编程的超能力。`for item in container:` 可以让你对列表或字典里的每一个元素做相同的操作。别忘了冒号和缩进！"
+        }
+      ],
+      "exampleCode": "# 列表\ntools = [\"ChatGPT\", \"Claude\", \"Midjourney\"]\nprint(f\"我有 {len(tools)} 个工具\")\n\n# 遍历列表\nfor tool in tools:\n    print(f\"正在使用: {tool}\")\n\n# 字典\nuser = {\"name\": \"Alice\", \"level\": 1}\nprint(f\"用户 {user['name']} 等级: {user['level']}\")\n\n# 遍历字典\nfor key, value in user.items():\n    print(f\"{key}: {value}\")",
+      "exercises": [
+        {
+          "id": "d2_ex1",
+          "type": "fill_in_blank",
+          "question": "补全代码，输出列表长度：\nfruits = ['apple', 'banana']\nprint(_____(fruits))",
+          "answer": "len",
+          "hint": "len() 函数可以获取容器的长度。"
+        },
+        {
+          "id": "d2_ex2",
+          "type": "predict",
+          "question": "data = {'a': 1, 'b': 2}\nprint(data['b'])",
+          "answer": "2",
+          "hint": "字典通过 Key 来获取 Value。"
+        }
+      ],
+      "homework": {
+        "title": "关键词计数器",
+        "description": "定义一个包含多个单词的列表（如 `['AI', 'Python', 'AI', 'Code']`），使用循环统计 'AI' 出现的次数。",
+        "template": "words = ['AI', 'Python', 'AI', 'Code']\ncount = 0\nfor w in words:\n    # ...\nprint(f\"AI 出现了 {count} 次\")"
+      },
+      "review": [
+        "你能区分列表 [] 和字典 {} 的写法吗？",
+        "你知道列表的索引是从 0 开始的吗？",
+        "你理解循环体内的代码为什么要缩进吗？"
+      ],
+      "troubleshooting": [
+        {
+          "error": "IndexError: list index out of range",
+          "solution": "索引越界。比如列表只有 3 个元素，你却试图访问第 4 个（索引 3）。"
+        },
+        {
+          "error": "KeyError: 'xxx'",
+          "solution": "键错误。你试图访问字典中不存在的 Key。检查拼写。"
+        },
+        {
+          "error": "TypeError: 'int' object is not iterable",
+          "solution": "试图遍历一个不可迭代的对象。比如 `for i in 10:` 是错的，应该是 `for i in range(10):`。"
+        },
+        {
+          "error": "IndentationError: expected an indented block",
+          "solution": "缩进错误。`for` 语句后面的代码块必须缩进。"
+        },
+        {
+          "error": "SyntaxError: invalid syntax (在 for 行)",
+          "solution": "通常是忘了在 `for` 语句末尾加冒号 `:`。"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "title": "条件判断 + 函数",
+      "goal": "学会让程序做选择（逻辑判断），并学会封装代码（函数），让代码更整洁、可复用。",
+      "sections": [
+        {
+          "title": "3.1 条件判断 (If/Else)",
+          "content": "程序需要根据情况做不同的事。`if` (如果), `elif` (否则如果), `else` (否则) 构成了逻辑分支。记得用 `==` 表示相等判断。"
+        },
+        {
+          "title": "3.2 函数 (Function)：打包逻辑",
+          "content": "函数就像一个黑盒子，给它输入（参数），它给你输出（返回值）。用 `def` 定义。把重复的代码封装成函数，是成为高手的必经之路。"
+        },
+        {
+          "title": "3.3 参数与返回值",
+          "content": "参数是函数的燃料，返回值是函数的产品。`return` 语句会结束函数并把结果交还给调用者。"
+        }
+      ],
+      "exampleCode": "# 条件判断\nscore = 85\nif score >= 90:\n    print(\"优秀\")\nelif score >= 60:\n    print(\"及格\")\nelse:\n    print(\"加油\")\n\n# 定义函数\ndef check_status(code):\n    if code == 200:\n        return \"成功\"\n    else:\n        return \"失败\"\n\n# 调用函数\nresult = check_status(200)\nprint(f\"API状态: {result}\")",
+      "exercises": [
+        {
+          "id": "d3_ex1",
+          "type": "choice",
+          "question": "在 Python 中，判断两个值是否相等应该用什么符号？",
+          "options": [
+            "=",
+            "==",
+            "===",
+            "!="
+          ],
+          "answer": "==",
+          "hint": "一个等号 `=` 是赋值，两个等号 `==` 才是判断相等。"
+        },
+        {
+          "id": "d3_ex2",
+          "type": "predict",
+          "question": "def add(a, b):\n    return a + b\nprint(add(2, 3))",
+          "answer": "5",
+          "hint": "函数接收 2 和 3，返回它们的和。"
+        }
+      ],
+      "homework": {
+        "title": "简单规则引擎",
+        "description": "写一个函数 `recommend_tool(task)`，输入任务名称，返回推荐工具。如果任务是 'drawing' 返回 'Midjourney'，是 'coding' 返回 'Cursor'，否则返回 'ChatGPT'。",
+        "template": "def recommend_tool(task):\n    # ...\n\nprint(recommend_tool('coding'))"
+      },
+      "review": [
+        "你理解 `=` 和 `==` 的区别了吗？",
+        "你知道 `return` 和 `print` 的区别吗？（一个返回给程序，一个打印给用户）",
+        "你能写出一个带参数的函数吗？"
+      ],
+      "troubleshooting": [
+        {
+          "error": "SyntaxError: invalid syntax (在 if 行)",
+          "solution": "检查 `if` 后面是否加了冒号 `:`，或者 `==` 写成了 `=`。"
+        },
+        {
+          "error": "IndentationError: unindent does not match...",
+          "solution": "缩进混乱。建议统一使用 4 个空格作为缩进。"
+        },
+        {
+          "error": "TypeError: ... missing 1 required positional argument",
+          "solution": "调用函数时少传了参数。定义了几个参数，调用时就要传几个。"
+        },
+        {
+          "error": "NameError: name 'xxx' is not defined (在函数内)",
+          "solution": "变量作用域问题。函数内部通常只能访问内部定义的变量或参数。"
+        },
+        {
+          "error": "NoneType object has no attribute...",
+          "solution": "函数没有返回值（默认返回 None），但你却把它当成有返回值的对象使用了。"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "title": "文件读写 (txt/json/csv)",
+      "goal": "学会让数据持久化。掌握读取和写入 txt 和 json 文件，这是与 AI 交换数据的标准方式。",
+      "sections": [
+        {
+          "title": "4.1 读写文本文件",
+          "content": "使用 `open()` 函数配合 `with` 语句（上下文管理器）是最佳实践，它会自动帮你关闭文件。模式 `'r'` 是读，`'w'` 是写（会覆盖），`'a'` 是追加。"
+        },
+        {
+          "title": "4.2 JSON：AI 的通用语",
+          "content": "JSON (JavaScript Object Notation) 是一种轻量级数据交换格式，Python 中对应字典和列表。`json` 模块的 `load/dump` 用于处理文件，`loads/dumps` 用于处理字符串。"
+        },
+        {
+          "title": "4.3 处理 CSV (选修)",
+          "content": "CSV 是电子表格的简化版。Python 的 `csv` 模块或 `pandas` 库（进阶）可以轻松处理它。"
+        }
+      ],
+      "exampleCode": "import json\n\n# 写入文本\nwith open(\"note.txt\", \"w\", encoding=\"utf-8\") as f:\n    f.write(\"今天学习了文件读写\")\n\n# 读取文本\nwith open(\"note.txt\", \"r\", encoding=\"utf-8\") as f:\n    content = f.read()\n    print(f\"读取内容: {content}\")\n\n# 处理 JSON\ndata = {\"model\": \"gpt-4\", \"temp\": 0.7}\njson_str = json.dumps(data) # 转成字符串\nprint(json_str)",
+      "exercises": [
+        {
+          "id": "d4_ex1",
+          "type": "choice",
+          "question": "使用 open() 打开文件时，哪个模式表示“写入并覆盖”？",
+          "options": [
+            "'r'",
+            "'w'",
+            "'a'",
+            "'x'"
+          ],
+          "answer": "'w'",
+          "hint": "'r'ead, 'w'rite, 'a'ppend。"
+        },
+        {
+          "id": "d4_ex2",
+          "type": "fill_in_blank",
+          "question": "import json\ndata = {'key': 'value'}\n# 将字典转换为 JSON 字符串\ns = json._____(data)",
+          "answer": "dumps",
+          "hint": "dump's' 处理 string，dump 处理 file。"
+        }
+      ],
+      "homework": {
+        "title": "笔记保存器",
+        "description": "创建一个脚本，提示用户输入今天的学习心得，然后将其保存到一个名为 `daily_log.txt` 的文件中。尝试使用追加模式 `'a'`，这样以前的笔记不会丢失。",
+        "template": "note = input(\"请输入笔记: \")\nwith open(\"daily_log.txt\", \"...\", encoding=\"utf-8\") as f:\n    # ..."
+      },
+      "review": [
+        "你习惯使用 `with open(...)` 结构了吗？",
+        "你知道为什么要指定 `encoding='utf-8'` 吗？（防止中文乱码）",
+        "你能区分 `json.dump` 和 `json.dumps` 吗？"
+      ],
+      "troubleshooting": [
+        {
+          "error": "FileNotFoundError: [Errno 2] No such file...",
+          "solution": "找不到文件。检查文件名路径，或者确保在读取前文件已存在。"
+        },
+        {
+          "error": "UnicodeDecodeError: 'gbk' codec can't decode...",
+          "solution": "编码错误。在 `open()` 中显式加上 `encoding='utf-8'`。"
+        },
+        {
+          "error": "json.decoder.JSONDecodeError",
+          "solution": "JSON 格式错误。读取的文件内容不是合法的 JSON 格式。"
+        },
+        {
+          "error": "PermissionError: [Errno 13] Permission denied",
+          "solution": "权限不足。可能文件正在被其他程序（如 Excel）占用，或者没有写权限。"
+        },
+        {
+          "error": "io.UnsupportedOperation: not readable",
+          "solution": "模式错误。用 `'w'` 模式打开的文件不能读取。"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "title": "异常处理 + 调试",
+      "goal": "学会处理程序中的错误，让程序更健壮。掌握 `try/except` 结构和基本的调试技巧。",
+      "sections": [
+        {
+          "title": "5.1 异常处理 (Try/Except)",
+          "content": "程序运行出错是常态。用 `try` 包裹可能出错的代码，用 `except` 捕获错误并处理，而不是让程序直接崩溃。这叫“防御性编程”。"
+        },
+        {
+          "title": "5.2 常见异常类型",
+          "content": "了解 `ValueError` (值错误), `TypeError` (类型错误), `KeyError` (键错误) 等常见异常，有助于精准捕获问题。"
+        },
+        {
+          "title": "5.3 调试技巧 (Debugging)",
+          "content": "最简单的调试就是 `print()`。在关键位置打印变量的值，看看是不是符合预期。进阶可以使用 IDE 的断点调试。"
+        }
+      ],
+      "exampleCode": "try:\n    num = int(input(\"请输入一个数字: \"))\n    print(f\"100 / {num} = {100/num}\")\nexcept ValueError:\n    print(\"错误：请输入纯数字！\")\nexcept ZeroDivisionError:\n    print(\"错误：不能除以零！\")\nexcept Exception as e:\n    print(f\"发生了未知错误: {e}\")\n\nprint(\"程序继续运行...\")",
+      "exercises": [
+        {
+          "id": "d5_ex1",
+          "type": "choice",
+          "question": "如果想捕获所有类型的错误，应该使用哪个 Exception？",
+          "options": [
+            "ValueError",
+            "KeyError",
+            "Exception",
+            "Error"
+          ],
+          "answer": "Exception",
+          "hint": "Exception 是大多数异常的基类。"
+        },
+        {
+          "id": "d5_ex2",
+          "type": "predict",
+          "question": "try:\n    print(1/0)\nexcept ZeroDivisionError:\n    print(\"A\")\nexcept:\n    print(\"B\")",
+          "answer": "A",
+          "hint": "1/0 会触发 ZeroDivisionError，被第一个 except 捕获。"
+        }
+      ],
+      "homework": {
+        "title": "健壮的读取器",
+        "description": "修改 Day 4 的作业，在读取文件时加上 `try/except`。如果文件不存在，捕获 `FileNotFoundError` 并提示用户“文件未找到，将创建新文件”，然后创建一个空文件。",
+        "template": "filename = \"data.json\"\ntry:\n    with open(filename, \"r\") as f:\n        # ...\nexcept FileNotFoundError:\n    print(\"...\")\n    # 创建文件逻辑"
+      },
+      "review": [
+        "你理解为什么不能只写 `try` 不写 `except` 吗？",
+        "你知道 `Exception` 可以捕获几乎所有错误吗？",
+        "你学会用 `print` 大法定位代码执行到哪一步了吗？"
+      ],
+      "troubleshooting": [
+        {
+          "error": "SyntaxError: default 'except:' must be last",
+          "solution": "通用的 `except:` 必须放在所有特定异常（如 `except ValueError:`）的后面。"
+        },
+        {
+          "error": "NameError: name 'e' is not defined",
+          "solution": "如果你想打印错误信息，记得写 `except Exception as e:`。"
+        },
+        {
+          "error": "程序逻辑错误但没报错",
+          "solution": "这是最难的。使用 `print` 打印中间变量，检查逻辑分支是否按预期执行。"
+        },
+        {
+          "error": "try 块里的代码作用域问题",
+          "solution": "在 `try` 块里定义的变量，如果 `try` 失败了，后面可能访问不到。注意变量初始化。"
+        },
+        {
+          "error": "捕获了异常但不知道哪里错了",
+          "solution": "在开发阶段，可以暂时把 `try/except` 去掉，让报错信息显示出来，方便定位。"
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "title": "Requests 与调用 API",
+      "goal": "打破单机限制，连接互联网。学会使用 `requests` 库发送 HTTP 请求，这是调用 AI API 的基础。",
+      "sections": [
+        {
+          "title": "6.1 HTTP 协议简介",
+          "content": "互联网通信的基础。GET 用于获取数据（像打开网页），POST 用于提交数据（像登录）。状态码 200 表示成功，404 表示找不到，500 表示服务器错误。"
+        },
+        {
+          "title": "6.2 Requests 库：人类易用的 HTTP 库",
+          "content": "Python 最著名的第三方库。`requests.get(url)` 和 `requests.post(url, json=data)` 极其简单好用。记得先 `pip install requests`。"
+        },
+        {
+          "title": "6.3 解析 API 响应",
+          "content": "API 通常返回 JSON 格式。使用 `response.json()` 可以直接把它变成 Python 的字典或列表，方便处理。"
+        }
+      ],
+      "exampleCode": "import requests\n\n# 模拟调用一个公开 API (GitHub API)\nurl = \"https://api.github.com/events\"\nresponse = requests.get(url)\n\nif response.status_code == 200:\n    events = response.json()\n    print(f\"获取到了 {len(events)} 个事件\")\n    print(f\"最新事件类型: {events[0]['type']}\")\nelse:\n    print(f\"请求失败: {response.status_code}\")",
+      "exercises": [
+        {
+          "id": "d6_ex1",
+          "type": "choice",
+          "question": "使用 requests 发送带 JSON 数据的 POST 请求，应该用哪个参数？",
+          "options": [
+            "data",
+            "json",
+            "body",
+            "params"
+          ],
+          "answer": "json",
+          "hint": "requests.post(url, json=my_dict) 会自动处理 header 和序列化。"
+        },
+        {
+          "id": "d6_ex2",
+          "type": "fill_in_blank",
+          "question": "resp = requests.get(url)\n# 获取响应的 JSON 数据\ndata = resp._____()",
+          "answer": "json",
+          "hint": "是一个方法，记得加括号。"
+        }
+      ],
+      "homework": {
+        "title": "API 数据抓取器",
+        "description": "编写脚本调用 `https://jsonplaceholder.typicode.com/todos/1` (这是一个测试用的假 API)，获取返回的 JSON 数据，并将其保存为 `todo.json` 文件。",
+        "template": "import requests\nimport json\n\nurl = \"...\"\nresp = requests.get(url)\nif resp.status_code == 200:\n    # 保存文件逻辑"
+      },
+      "review": [
+        "你安装 `requests` 库了吗？(`pip install requests`)",
+        "你理解 GET 和 POST 的区别吗？",
+        "你知道如何从 API 响应中提取你需要的信息吗？"
+      ],
+      "troubleshooting": [
+        {
+          "error": "ModuleNotFoundError: No module named 'requests'",
+          "solution": "没安装库。在终端运行 `pip install requests`。"
+        },
+        {
+          "error": "ConnectionError / Timeout",
+          "solution": "网络问题。检查网址是否正确，或者网络是否通畅。"
+        },
+        {
+          "error": "JSONDecodeError",
+          "solution": "API 返回的不是 JSON。可能是 404 页面或者其他 HTML 内容。检查 `status_code`。"
+        },
+        {
+          "error": "KeyError (在解析响应时)",
+          "solution": "API 返回的结构和你预期的不一样。先 `print(response.json())` 看看实际结构。"
+        },
+        {
+          "error": "SSL Error",
+          "solution": "HTTPS 证书问题。通常是网络环境问题，或者需要设置代理。"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "title": "整合项目：AI 协作脚本",
+      "goal": "融会贯通。将前 6 天的知识点（变量、逻辑、文件、API、异常处理）组合起来，构建一个具有实际价值的脚本雏形。",
+      "sections": [
+        {
+          "title": "7.1 模块化思维",
+          "content": "不要把所有代码写在一坨。把功能拆分成函数：`read_input()`, `process_data()`, `call_api()`, `save_result()`。这样代码清晰且易于维护。"
+        },
+        {
+          "title": "7.2 环境变量与安全",
+          "content": "API Key 等敏感信息不要直接写在代码里。使用 `os.getenv()` 从环境变量读取，或者使用 `.env` 文件（配合 `python-dotenv` 库）。"
+        },
+        {
+          "title": "7.3 迈向自动化",
+          "content": "脚本写好了，怎么让它自动跑？可以使用 Windows 任务计划程序，或者在代码里加个 `while True` 循环配合 `time.sleep()`。"
+        }
+      ],
+      "exampleCode": "import time\nimport json\n\ndef get_task():\n    return {\"task\": \"summarize\", \"content\": \"Python is great\"}\n\ndef mock_ai_process(data):\n    print(\"正在调用 AI...\")\n    time.sleep(1)\n    return f\"摘要: {data['content']} (Processed)\"\n\ndef save_log(result):\n    with open(\"ai_log.txt\", \"a\", encoding=\"utf-8\") as f:\n        f.write(result + \"\\n\")\n\n# 主流程\ndef main():\n    try:\n        task = get_task()\n        result = mock_ai_process(task)\n        save_log(result)\n        print(\"任务完成！\")\n    except Exception as e:\n        print(f\"任务出错: {e}\")\n\nif __name__ == \"__main__\":\n    main()",
+      "exercises": [
+        {
+          "id": "d7_ex1",
+          "type": "choice",
+          "question": "if __name__ == \"__main__\": 的作用是什么？",
+          "options": [
+            "定义主函数",
+            "导入模块",
+            "防止代码被导入时自动执行",
+            "没有任何作用"
+          ],
+          "answer": "防止代码被导入时自动执行",
+          "hint": "这是 Python 的标准入口判断，保证脚本只有在直接运行时才执行 main()。"
+        },
+        {
+          "id": "d7_ex2",
+          "type": "fill_in_blank",
+          "question": "import os\n# 读取环境变量 API_KEY\nkey = os._____('API_KEY')",
+          "answer": "getenv",
+          "hint": "get environment variable 的缩写。"
+        }
+      ],
+      "homework": {
+        "title": "可复用脚本模板",
+        "description": "创建一个通用的脚本模板 `template.py`，包含：1. 配置区（变量）；2. 数据读取函数；3. 核心处理函数（预留）；4. 结果保存函数；5. `main` 函数串联流程；6. 异常处理。",
+        "template": "# 配置\nCONFIG = {...}\n\ndef load_data(): pass\ndef process(): pass\ndef save(): pass\n\ndef main():\n    try:\n        # ...\n    except Exception as e:\n        print(e)\n\nif __name__ == \"__main__\":\n    main()"
+      },
+      "review": [
+        "你学会把大问题拆解成小函数了吗？",
+        "你知道如何保护你的 API Key 吗？",
+        "恭喜！你已经掌握了 Python 协作 AI 的核心能力。下一步建议：1. 学习 Pandas 处理表格；2. 学习 Streamlit 做 Web 界面；3. 深入学习 Prompt Engineering。"
+      ],
+      "troubleshooting": [
+        {
+          "error": "ImportError",
+          "solution": "检查是否所有依赖库都安装了。可以使用 `pip freeze > requirements.txt` 导出依赖。"
+        },
+        {
+          "error": "逻辑混乱，改了这里坏了那里",
+          "solution": "保持函数功能单一（Single Responsibility Principle）。一个函数只做一件事。"
+        },
+        {
+          "error": "环境变量读不到",
+          "solution": "检查系统环境变量设置，或者是否安装并正确使用了 `python-dotenv`。"
+        },
+        {
+          "error": "程序跑起来停不下来",
+          "solution": "如果是死循环，按 `Ctrl + C` 强制终止。"
+        },
+        {
+          "error": "不知道下一步学什么",
+          "solution": "不要为了学而学。找一个实际问题（比如自动整理发票），试着写脚本解决它。"
+        }
+      ]
+    }
+  ]
+}

@@ -9,7 +9,7 @@ const plugins = [react(), tailwindcss(), vitePluginManusRuntime()];
 
 export default defineConfig({
   // ✅ 这里！这是关键
-  base: "/python-learning-7days/",
+  base: "/Python7-/",
 
   plugins,
 

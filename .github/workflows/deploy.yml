@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -17,6 +17,10 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: python-learning-7days_fun-upgrade-fixed
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -26,18 +30,18 @@ jobs:
         with:
           node-version: 20
           cache: npm
+          cache-dependency-path: python-learning-7days_fun-upgrade-fixed/package-lock.json
 
       - name: Install
         run: npm ci
 
       - name: Build
         run: npm run build
-        working-directory: client
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/public
+          path: python-learning-7days_fun-upgrade-fixed/dist/public
 
   deploy:
     environment:

@@ -106,10 +106,50 @@ const Exercise = ({ dayId, exercise }: { dayId: number; exercise: any }) => {
   );
 };
 
+
+
+function LockedGate({ requiredDay, targetDay }: { requiredDay: number; targetDay: number }) {
+  const [, setLocation] = useLocation();
+
+  return (
+    <div className="p-8">
+      <Card className="border-2 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]">
+        <CardHeader className="border-b-2 border-black bg-yellow-50">
+          <CardTitle className="font-mono font-bold uppercase flex items-center gap-2">
+            <AlertTriangle size={18} /> 未解锁关卡
+          </CardTitle>
+        </CardHeader>
+        <CardContent className="pt-6 space-y-4">
+          <p className="font-mono text-sm text-gray-800">
+            你正在尝试进入 <b>第 {targetDay} 天</b>，但它还没解锁。
+            <br />
+            需要先完成 <b>第 {requiredDay} 天</b> 才能继续。
+          </p>
+          <div className="flex flex-col sm:flex-row gap-3">
+            <Button
+              className="font-mono border-2 border-black shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]"
+              onClick={() => setLocation(`/day/${requiredDay}`)}
+            >
+              去完成第 {requiredDay} 天
+            </Button>
+            <Button
+              variant="outline"
+              className="font-mono border-2 border-black"
+              onClick={() => setLocation("/")}
+            >
+              回到首页
+            </Button>
+          </div>
+        </CardContent>
+      </Card>
+    </div>
+  );
+}
+
 export default function DayDetail() {
   const [match, params] = useRoute("/day/:id");
   const [, setLocation] = useLocation();
-  const { days, completeDay, save今日作业, saveReview } = useProgressStore();
+  const { days, lastActiveDay, completeDay, save今日作业, saveReview } = useProgressStore();
   const [copied, setCopied] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
 
@@ -119,6 +159,14 @@ export default function DayDetail() {
   const dayData = planData.days.find(d => d.day === dayId);
   
   if (!dayData) return <div>Day not found</div>;
+
+// Lock rule: you can only access up to lastActiveDay (next unlocked day)
+// Example: lastActiveDay=1 => only Day1 is accessible
+if (dayId > lastActiveDay) {
+  const requiredDay = Math.max(1, Math.min(lastActiveDay, 7));
+  return <LockedGate requiredDay={requiredDay} targetDay={dayId} />;
+}
+
 
   const progress = days[dayId] || { completed: false, exercises: {}, homework: '', review: [] };
   

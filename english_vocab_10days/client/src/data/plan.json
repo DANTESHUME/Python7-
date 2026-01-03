@@ -1,0 +1,5406 @@
+{
+  "days": [
+    {
+      "day": 1,
+      "title": "系统上手 + 高频基础词",
+      "goals": [
+        "熟悉音标和跟读功能",
+        "掌握50个最基础的高频词",
+        "完成首次复习闭环"
+      ],
+      "methods": [
+        {
+          "title": "音标记忆法",
+          "content": "利用每个单词的IPA音标，结合发音按钮，建立声音与拼写的联系。"
+        },
+        {
+          "title": "快速过词",
+          "content": "第一遍不要纠结拼写，重点看英文、听发音、看中文，快速建立印象。"
+        },
+        {
+          "title": "跟读模仿",
+          "content": "点击发音按钮后，大声跟读一遍，口腔肌肉记忆比大脑记忆更持久。"
+        }
+      ],
+      "words": [
+        {
+          "id": "d1_001",
+          "word": "the",
+          "ipa": "/ðə/",
+          "pos": "art.",
+          "meaning_cn": "这；那",
+          "example_en": "The book is on the table.",
+          "example_cn": "书在桌子上。",
+          "hint": "t + /ðə/ 最常见的定冠词"
+        },
+        {
+          "id": "d1_002",
+          "word": "be",
+          "ipa": "/bi/",
+          "pos": "v.",
+          "meaning_cn": "是；存在",
+          "example_en": "Don't worry, be happy.",
+          "example_cn": "别担心，开心点。",
+          "hint": "b + /i/ 状态动词"
+        },
+        {
+          "id": "d1_003",
+          "word": "to",
+          "ipa": "/tu/",
+          "pos": "prep.",
+          "meaning_cn": "向；朝；致",
+          "example_en": "Go to sleep.",
+          "example_cn": "去睡觉。",
+          "hint": "t + /u/ 方向介词"
+        },
+        {
+          "id": "d1_004",
+          "word": "of",
+          "ipa": "/ʌv/",
+          "pos": "prep.",
+          "meaning_cn": "属于；...的",
+          "example_en": "A cup of tea.",
+          "example_cn": "一杯茶。",
+          "hint": "o + /ʌv/ 所属关系"
+        },
+        {
+          "id": "d1_005",
+          "word": "and",
+          "ipa": "/ænd/",
+          "pos": "conj.",
+          "meaning_cn": "和；与",
+          "example_en": "You and I.",
+          "example_cn": "你和我。",
+          "hint": "a + /æ/ 连接词"
+        },
+        {
+          "id": "d1_006",
+          "word": "a",
+          "ipa": "/ə/",
+          "pos": "art.",
+          "meaning_cn": "一（个/件...）",
+          "example_en": "I have a dream.",
+          "example_cn": "我有一个梦想。",
+          "hint": "不定冠词"
+        },
+        {
+          "id": "d1_007",
+          "word": "in",
+          "ipa": "/ɪn/",
+          "pos": "prep.",
+          "meaning_cn": "在...里面",
+          "example_en": "I live in London.",
+          "example_cn": "我住在伦敦。",
+          "hint": "i + /ɪn/ 内部"
+        },
+        {
+          "id": "d1_008",
+          "word": "that",
+          "ipa": "/ðæt/",
+          "pos": "pron.",
+          "meaning_cn": "那个",
+          "example_en": "That is my car.",
+          "example_cn": "那是我的车。",
+          "hint": "th + /ð/ 指示代词"
+        },
+        {
+          "id": "d1_009",
+          "word": "have",
+          "ipa": "/hæv/",
+          "pos": "v.",
+          "meaning_cn": "有；吃；喝",
+          "example_en": "I have a question.",
+          "example_cn": "我有一个问题。",
+          "hint": "h + /h/ 拥有"
+        },
+        {
+          "id": "d1_010",
+          "word": "I",
+          "ipa": "/aɪ/",
+          "pos": "pron.",
+          "meaning_cn": "我",
+          "example_en": "I am a student.",
+          "example_cn": "我是一名学生。",
+          "hint": "第一人称"
+        },
+        {
+          "id": "d1_011",
+          "word": "it",
+          "ipa": "/ɪt/",
+          "pos": "pron.",
+          "meaning_cn": "它",
+          "example_en": "It is raining.",
+          "example_cn": "正在下雨。",
+          "hint": "i + /ɪ/ 第三人称单数"
+        },
+        {
+          "id": "d1_012",
+          "word": "for",
+          "ipa": "/fɔr/",
+          "pos": "prep.",
+          "meaning_cn": "为了；给",
+          "example_en": "This is for you.",
+          "example_cn": "这是给你的。",
+          "hint": "f + /f/ 目的"
+        },
+        {
+          "id": "d1_013",
+          "word": "not",
+          "ipa": "/nɑt/",
+          "pos": "adv.",
+          "meaning_cn": "不；没有",
+          "example_en": "I am not ready.",
+          "example_cn": "我还没准备好。",
+          "hint": "n + /n/ 否定"
+        },
+        {
+          "id": "d1_014",
+          "word": "on",
+          "ipa": "/ɑn/",
+          "pos": "prep.",
+          "meaning_cn": "在...上面",
+          "example_en": "The cat is on the mat.",
+          "example_cn": "猫在垫子上。",
+          "hint": "o + /ɑ/ 表面接触"
+        },
+        {
+          "id": "d1_015",
+          "word": "with",
+          "ipa": "/wɪð/",
+          "pos": "prep.",
+          "meaning_cn": "和...在一起；用",
+          "example_en": "Come with me.",
+          "example_cn": "跟我来。",
+          "hint": "w + /w/ 伴随"
+        },
+        {
+          "id": "d1_016",
+          "word": "he",
+          "ipa": "/hi/",
+          "pos": "pron.",
+          "meaning_cn": "他",
+          "example_en": "He is my brother.",
+          "example_cn": "他是我的哥哥。",
+          "hint": "h + /h/ 男性第三人称"
+        },
+        {
+          "id": "d1_017",
+          "word": "as",
+          "ipa": "/æz/",
+          "pos": "adv.",
+          "meaning_cn": "像...一样；如同",
+          "example_en": "Do as I say.",
+          "example_cn": "照我说的做。",
+          "hint": "a + /æ/ 比较/如同"
+        },
+        {
+          "id": "d1_018",
+          "word": "you",
+          "ipa": "/ju/",
+          "pos": "pron.",
+          "meaning_cn": "你；你们",
+          "example_en": "Nice to meet you.",
+          "example_cn": "很高兴见到你。",
+          "hint": "y + /j/ 第二人称"
+        },
+        {
+          "id": "d1_019",
+          "word": "do",
+          "ipa": "/du/",
+          "pos": "v.",
+          "meaning_cn": "做；干",
+          "example_en": "Just do it.",
+          "example_cn": "尽管去做。",
+          "hint": "d + /d/ 动作"
+        },
+        {
+          "id": "d1_020",
+          "word": "at",
+          "ipa": "/æt/",
+          "pos": "prep.",
+          "meaning_cn": "在（某处/某时间）",
+          "example_en": "See you at 5.",
+          "example_cn": "5点见。",
+          "hint": "a + /æ/ 具体点"
+        },
+        {
+          "id": "d1_021",
+          "word": "this",
+          "ipa": "/ðɪs/",
+          "pos": "pron.",
+          "meaning_cn": "这个",
+          "example_en": "This is my house.",
+          "example_cn": "这是我的房子。",
+          "hint": "th + /ð/ 近指"
+        },
+        {
+          "id": "d1_022",
+          "word": "but",
+          "ipa": "/bʌt/",
+          "pos": "conj.",
+          "meaning_cn": "但是",
+          "example_en": "I like it, but it's expensive.",
+          "example_cn": "我喜欢它，但是太贵了。",
+          "hint": "b + /b/ 转折"
+        },
+        {
+          "id": "d1_023",
+          "word": "his",
+          "ipa": "/hɪz/",
+          "pos": "pron.",
+          "meaning_cn": "他的",
+          "example_en": "This is his book.",
+          "example_cn": "这是他的书。",
+          "hint": "h + /h/ 男性所有格"
+        },
+        {
+          "id": "d1_024",
+          "word": "by",
+          "ipa": "/baɪ/",
+          "pos": "prep.",
+          "meaning_cn": "通过；被；在...旁边",
+          "example_en": "Travel by bus.",
+          "example_cn": "乘公交车旅行。",
+          "hint": "b + /b/ 方式/手段"
+        },
+        {
+          "id": "d1_025",
+          "word": "from",
+          "ipa": "/frʌm/",
+          "pos": "prep.",
+          "meaning_cn": "来自；从",
+          "example_en": "I am from China.",
+          "example_cn": "我来自中国。",
+          "hint": "f + /f/ 来源"
+        },
+        {
+          "id": "d1_026",
+          "word": "they",
+          "ipa": "/ðeɪ/",
+          "pos": "pron.",
+          "meaning_cn": "他们；它们",
+          "example_en": "They are playing.",
+          "example_cn": "他们正在玩耍。",
+          "hint": "th + /ð/ 复数第三人称"
+        },
+        {
+          "id": "d1_027",
+          "word": "we",
+          "ipa": "/wi/",
+          "pos": "pron.",
+          "meaning_cn": "我们",
+          "example_en": "We are family.",
+          "example_cn": "我们是一家人。",
+          "hint": "w + /w/ 复数第一人称"
+        },
+        {
+          "id": "d1_028",
+          "word": "say",
+          "ipa": "/seɪ/",
+          "pos": "v.",
+          "meaning_cn": "说；讲",
+          "example_en": "Say hello to him.",
+          "example_cn": "向他问好。",
+          "hint": "s + /s/ 表达"
+        },
+        {
+          "id": "d1_029",
+          "word": "her",
+          "ipa": "/hɜr/",
+          "pos": "pron.",
+          "meaning_cn": "她的；她（宾格）",
+          "example_en": "I like her dress.",
+          "example_cn": "我喜欢她的裙子。",
+          "hint": "h + /h/ 女性所有格"
+        },
+        {
+          "id": "d1_030",
+          "word": "she",
+          "ipa": "/ʃi/",
+          "pos": "pron.",
+          "meaning_cn": "她",
+          "example_en": "She is a doctor.",
+          "example_cn": "她是一名医生。",
+          "hint": "sh + /ʃ/ 女性第三人称"
+        },
+        {
+          "id": "d1_031",
+          "word": "or",
+          "ipa": "/ɔr/",
+          "pos": "conj.",
+          "meaning_cn": "或者",
+          "example_en": "Tea or coffee?",
+          "example_cn": "茶还是咖啡？",
+          "hint": "o + /ɔ/ 选择"
+        },
+        {
+          "id": "d1_032",
+          "word": "an",
+          "ipa": "/æn/",
+          "pos": "art.",
+          "meaning_cn": "一（个/件...）",
+          "example_en": "An apple a day.",
+          "example_cn": "一天一苹果。",
+          "hint": "元音前的不定冠词"
+        },
+        {
+          "id": "d1_033",
+          "word": "will",
+          "ipa": "/wɪl/",
+          "pos": "v.",
+          "meaning_cn": "将要；愿意",
+          "example_en": "I will do it.",
+          "example_cn": "我会做的。",
+          "hint": "w + /w/ 将来时"
+        },
+        {
+          "id": "d1_034",
+          "word": "my",
+          "ipa": "/maɪ/",
+          "pos": "pron.",
+          "meaning_cn": "我的",
+          "example_en": "This is my phone.",
+          "example_cn": "这是我的手机。",
+          "hint": "m + /m/ 第一人称所有格"
+        },
+        {
+          "id": "d1_035",
+          "word": "one",
+          "ipa": "/wʌn/",
+          "pos": "num.",
+          "meaning_cn": "一；一个",
+          "example_en": "One by one.",
+          "example_cn": "一个接一个。",
+          "hint": "o + /w/ 数字1"
+        },
+        {
+          "id": "d1_036",
+          "word": "all",
+          "ipa": "/ɔl/",
+          "pos": "adj.",
+          "meaning_cn": "所有的；全部的",
+          "example_en": "All people are equal.",
+          "example_cn": "人人生而平等。",
+          "hint": "a + /ɔ/ 全部"
+        },
+        {
+          "id": "d1_037",
+          "word": "would",
+          "ipa": "/wʊd/",
+          "pos": "v.",
+          "meaning_cn": "将；愿意（will的过去式）",
+          "example_en": "I would like some water.",
+          "example_cn": "我想要点水。",
+          "hint": "w + /w/ 委婉语气"
+        },
+        {
+          "id": "d1_038",
+          "word": "there",
+          "ipa": "/ðɛr/",
+          "pos": "adv.",
+          "meaning_cn": "那里",
+          "example_en": "Go there.",
+          "example_cn": "去那里。",
+          "hint": "th + /ð/ 地点"
+        },
+        {
+          "id": "d1_039",
+          "word": "their",
+          "ipa": "/ðɛr/",
+          "pos": "pron.",
+          "meaning_cn": "他们的",
+          "example_en": "Their house is big.",
+          "example_cn": "他们的房子很大。",
+          "hint": "th + /ð/ 复数所有格"
+        },
+        {
+          "id": "d1_040",
+          "word": "what",
+          "ipa": "/wʌt/",
+          "pos": "pron.",
+          "meaning_cn": "什么",
+          "example_en": "What is your name?",
+          "example_cn": "你叫什么名字？",
+          "hint": "wh + /w/ 疑问词"
+        },
+        {
+          "id": "d1_041",
+          "word": "so",
+          "ipa": "/soʊ/",
+          "pos": "conj.",
+          "meaning_cn": "所以；那么",
+          "example_en": "So, what now?",
+          "example_cn": "那么，现在怎么办？",
+          "hint": "s + /s/ 因果/程度"
+        },
+        {
+          "id": "d1_042",
+          "word": "up",
+          "ipa": "/ʌp/",
+          "pos": "adv.",
+          "meaning_cn": "向上",
+          "example_en": "Stand up.",
+          "example_cn": "站起来。",
+          "hint": "u + /ʌ/ 方向"
+        },
+        {
+          "id": "d1_043",
+          "word": "out",
+          "ipa": "/aʊt/",
+          "pos": "adv.",
+          "meaning_cn": "向外；外面",
+          "example_en": "Get out.",
+          "example_cn": "出去。",
+          "hint": "ou + /aʊ/ 方向"
+        },
+        {
+          "id": "d1_044",
+          "word": "if",
+          "ipa": "/ɪf/",
+          "pos": "conj.",
+          "meaning_cn": "如果",
+          "example_en": "If you like it, buy it.",
+          "example_cn": "如果你喜欢，就买下它。",
+          "hint": "i + /ɪ/ 条件"
+        },
+        {
+          "id": "d1_045",
+          "word": "about",
+          "ipa": "/əˈbaʊt/",
+          "pos": "prep.",
+          "meaning_cn": "关于；大约",
+          "example_en": "Tell me about yourself.",
+          "example_cn": "说说你自己的情况。",
+          "hint": "a + /ə/ 话题/范围"
+        },
+        {
+          "id": "d1_046",
+          "word": "who",
+          "ipa": "/hu/",
+          "pos": "pron.",
+          "meaning_cn": "谁",
+          "example_en": "Who are you?",
+          "example_cn": "你是谁？",
+          "hint": "wh + /h/ 疑问词（人）"
+        },
+        {
+          "id": "d1_047",
+          "word": "get",
+          "ipa": "/ɡɛt/",
+          "pos": "v.",
+          "meaning_cn": "得到；变得",
+          "example_en": "I get it.",
+          "example_cn": "我明白了。",
+          "hint": "g + /ɡ/ 获取"
+        },
+        {
+          "id": "d1_048",
+          "word": "which",
+          "ipa": "/wɪtʃ/",
+          "pos": "pron.",
+          "meaning_cn": "哪一个",
+          "example_en": "Which one do you like?",
+          "example_cn": "你喜欢哪一个？",
+          "hint": "wh + /w/ 选择疑问"
+        },
+        {
+          "id": "d1_049",
+          "word": "go",
+          "ipa": "/ɡoʊ/",
+          "pos": "v.",
+          "meaning_cn": "去；走",
+          "example_en": "Let's go.",
+          "example_cn": "我们走吧。",
+          "hint": "g + /ɡ/ 移动"
+        },
+        {
+          "id": "d1_050",
+          "word": "me",
+          "ipa": "/mi/",
+          "pos": "pron.",
+          "meaning_cn": "我（宾格）",
+          "example_en": "Give it to me.",
+          "example_cn": "把它给我。",
+          "hint": "m + /m/ 第一人称宾格"
+        }
+      ],
+      "homework": {
+        "title": "今日小作业",
+        "description": "请尝试用今天学到的单词（如 I, have, a, good, day）造一个简单的句子，并大声读出来。",
+        "placeholder": "例如：I have a good book."
+      },
+      "review_questions": [
+        "今天这50个词中，哪个词的发音你觉得最难？",
+        "你是否尝试了跟读功能？感觉如何？",
+        "有没有哪个例句让你印象深刻？"
+      ],
+      "common_errors": [
+        {
+          "title": "th的发音",
+          "content": "the, that, this 中的 th 发浊辅音 /ð/，舌尖要轻咬在上下齿之间，声带振动。"
+        },
+        {
+          "title": "i的发音",
+          "content": "it, is, in 中的 i 发短元音 /ɪ/，不要发成 /i:/（长音）。嘴巴微张，短促有力。"
+        },
+        {
+          "title": "a的发音",
+          "content": "and, at, as 中的 a 发梅花音 /æ/，嘴巴要张大，像要吃苹果一样。"
+        },
+        {
+          "title": "词性混淆",
+          "content": "注意区分 my (形容词性物主代词) 和 I (主格代词)。My book, I am..."
+        },
+        {
+          "title": "be动词变化",
+          "content": "be动词随人称变化：I am, You are, He/She/It is。"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "title": "高频动词/介词/代词",
+      "goals": [
+        "掌握50个常用动词和介词",
+        "理解动词的基本用法",
+        "区分常见介词的空间方位"
+      ],
+      "methods": [
+        {
+          "title": "动作联想法",
+          "content": "记忆动词时，边读边做相应的动作（如 make 做个手势，know 指指脑袋）。"
+        },
+        {
+          "title": "介词图示法",
+          "content": "对于 up, down, into 等介词，脑海中想象一个物体的位置移动。"
+        },
+        {
+          "title": "短语记忆",
+          "content": "动词和介词常搭配使用，如 look at, think of，一起记效率更高。"
+        }
+      ],
+      "words": [
+        {
+          "id": "d2_001",
+          "word": "make",
+          "ipa": "/meɪk/",
+          "pos": "v.",
+          "meaning_cn": "制造；使得",
+          "example_en": "Make a wish.",
+          "example_cn": "许个愿。",
+          "hint": "m + /m/ 制造"
+        },
+        {
+          "id": "d2_002",
+          "word": "can",
+          "ipa": "/kæn/",
+          "pos": "v.",
+          "meaning_cn": "能；会",
+          "example_en": "I can swim.",
+          "example_cn": "我会游泳。",
+          "hint": "c + /k/ 能力"
+        },
+        {
+          "id": "d2_003",
+          "word": "like",
+          "ipa": "/laɪk/",
+          "pos": "v.",
+          "meaning_cn": "喜欢；像",
+          "example_en": "I like apples.",
+          "example_cn": "我喜欢苹果。",
+          "hint": "l + /l/ 喜好"
+        },
+        {
+          "id": "d2_004",
+          "word": "time",
+          "ipa": "/taɪm/",
+          "pos": "n.",
+          "meaning_cn": "时间；次",
+          "example_en": "Time is money.",
+          "example_cn": "时间就是金钱。",
+          "hint": "t + /t/ 时刻"
+        },
+        {
+          "id": "d2_005",
+          "word": "no",
+          "ipa": "/noʊ/",
+          "pos": "adv.",
+          "meaning_cn": "不；没有",
+          "example_en": "No problem.",
+          "example_cn": "没问题。",
+          "hint": "n + /n/ 否定"
+        },
+        {
+          "id": "d2_006",
+          "word": "just",
+          "ipa": "/dʒʌst/",
+          "pos": "adv.",
+          "meaning_cn": "刚刚；仅仅",
+          "example_en": "Just do it.",
+          "example_cn": "尽管去做。",
+          "hint": "j + /dʒ/ 刚才"
+        },
+        {
+          "id": "d2_007",
+          "word": "him",
+          "ipa": "/hɪm/",
+          "pos": "pron.",
+          "meaning_cn": "他（宾格）",
+          "example_en": "Tell him the truth.",
+          "example_cn": "告诉他真相。",
+          "hint": "h + /h/ 男性宾格"
+        },
+        {
+          "id": "d2_008",
+          "word": "know",
+          "ipa": "/noʊ/",
+          "pos": "v.",
+          "meaning_cn": "知道；认识",
+          "example_en": "I know him.",
+          "example_cn": "我认识他。",
+          "hint": "kn + /n/ 认知"
+        },
+        {
+          "id": "d2_009",
+          "word": "take",
+          "ipa": "/teɪk/",
+          "pos": "v.",
+          "meaning_cn": "拿；取；花费",
+          "example_en": "Take a break.",
+          "example_cn": "休息一下。",
+          "hint": "t + /t/ 拿取"
+        },
+        {
+          "id": "d2_010",
+          "word": "people",
+          "ipa": "/ˈpipəl/",
+          "pos": "n.",
+          "meaning_cn": "人；人们",
+          "example_en": "Many people are here.",
+          "example_cn": "很多人在这里。",
+          "hint": "p + /p/ 人群"
+        },
+        {
+          "id": "d2_011",
+          "word": "into",
+          "ipa": "/ˈɪntu/",
+          "pos": "prep.",
+          "meaning_cn": "进入...中",
+          "example_en": "Come into the room.",
+          "example_cn": "进屋来。",
+          "hint": "in + to 进入"
+        },
+        {
+          "id": "d2_012",
+          "word": "year",
+          "ipa": "/jɪr/",
+          "pos": "n.",
+          "meaning_cn": "年",
+          "example_en": "Happy New Year.",
+          "example_cn": "新年快乐。",
+          "hint": "y + /j/ 年份"
+        },
+        {
+          "id": "d2_013",
+          "word": "your",
+          "ipa": "/jʊr/",
+          "pos": "pron.",
+          "meaning_cn": "你的；你们的",
+          "example_en": "What is your name?",
+          "example_cn": "你叫什么名字？",
+          "hint": "y + /j/ 第二人称所有格"
+        },
+        {
+          "id": "d2_014",
+          "word": "good",
+          "ipa": "/ɡʊd/",
+          "pos": "adj.",
+          "meaning_cn": "好的",
+          "example_en": "Good morning.",
+          "example_cn": "早上好。",
+          "hint": "g + /ɡ/ 好的"
+        },
+        {
+          "id": "d2_015",
+          "word": "some",
+          "ipa": "/sʌm/",
+          "pos": "adj.",
+          "meaning_cn": "一些",
+          "example_en": "I want some water.",
+          "example_cn": "我想要点水。",
+          "hint": "s + /s/ 数量"
+        },
+        {
+          "id": "d2_016",
+          "word": "could",
+          "ipa": "/kʊd/",
+          "pos": "v.",
+          "meaning_cn": "能够（can的过去式）",
+          "example_en": "Could you help me?",
+          "example_cn": "你能帮我吗？",
+          "hint": "c + /k/ 能力/委婉"
+        },
+        {
+          "id": "d2_017",
+          "word": "them",
+          "ipa": "/ðɛm/",
+          "pos": "pron.",
+          "meaning_cn": "他们（宾格）",
+          "example_en": "I like them.",
+          "example_cn": "我喜欢他们。",
+          "hint": "th + /ð/ 复数宾格"
+        },
+        {
+          "id": "d2_018",
+          "word": "see",
+          "ipa": "/si/",
+          "pos": "v.",
+          "meaning_cn": "看见；明白",
+          "example_en": "I see a bird.",
+          "example_cn": "我看见一只鸟。",
+          "hint": "s + /s/ 视觉"
+        },
+        {
+          "id": "d2_019",
+          "word": "other",
+          "ipa": "/ˈʌðər/",
+          "pos": "adj.",
+          "meaning_cn": "其他的",
+          "example_en": "Any other questions?",
+          "example_cn": "还有其他问题吗？",
+          "hint": "o + /ʌ/ 另外的"
+        },
+        {
+          "id": "d2_020",
+          "word": "than",
+          "ipa": "/ðæn/",
+          "pos": "conj.",
+          "meaning_cn": "比",
+          "example_en": "Better than nothing.",
+          "example_cn": "聊胜于无。",
+          "hint": "th + /ð/ 比较"
+        },
+        {
+          "id": "d2_021",
+          "word": "then",
+          "ipa": "/ðɛn/",
+          "pos": "adv.",
+          "meaning_cn": "那时；然后",
+          "example_en": "See you then.",
+          "example_cn": "到时候见。",
+          "hint": "th + /ð/ 时间/顺序"
+        },
+        {
+          "id": "d2_022",
+          "word": "now",
+          "ipa": "/naʊ/",
+          "pos": "adv.",
+          "meaning_cn": "现在",
+          "example_en": "Do it now.",
+          "example_cn": "现在就做。",
+          "hint": "n + /n/ 此刻"
+        },
+        {
+          "id": "d2_023",
+          "word": "look",
+          "ipa": "/lʊk/",
+          "pos": "v.",
+          "meaning_cn": "看；看起来",
+          "example_en": "Look at me.",
+          "example_cn": "看着我。",
+          "hint": "l + /l/ 视觉"
+        },
+        {
+          "id": "d2_024",
+          "word": "only",
+          "ipa": "/ˈoʊnli/",
+          "pos": "adv.",
+          "meaning_cn": "只有；仅仅",
+          "example_en": "Only you.",
+          "example_cn": "只有你。",
+          "hint": "o + /oʊ/ 唯一"
+        },
+        {
+          "id": "d2_025",
+          "word": "come",
+          "ipa": "/kʌm/",
+          "pos": "v.",
+          "meaning_cn": "来",
+          "example_en": "Come here.",
+          "example_cn": "来这里。",
+          "hint": "c + /k/ 来到"
+        },
+        {
+          "id": "d2_026",
+          "word": "its",
+          "ipa": "/ɪts/",
+          "pos": "pron.",
+          "meaning_cn": "它的",
+          "example_en": "The dog wagged its tail.",
+          "example_cn": "狗摇了摇尾巴。",
+          "hint": "i + /ɪ/ 物主代词"
+        },
+        {
+          "id": "d2_027",
+          "word": "over",
+          "ipa": "/ˈoʊvər/",
+          "pos": "prep.",
+          "meaning_cn": "在...上方；结束",
+          "example_en": "Game over.",
+          "example_cn": "游戏结束。",
+          "hint": "o + /oʊ/ 上方/越过"
+        },
+        {
+          "id": "d2_028",
+          "word": "think",
+          "ipa": "/θɪŋk/",
+          "pos": "v.",
+          "meaning_cn": "想；认为",
+          "example_en": "I think so.",
+          "example_cn": "我想是这样。",
+          "hint": "th + /θ/ 思考"
+        },
+        {
+          "id": "d2_029",
+          "word": "also",
+          "ipa": "/ˈɔlsoʊ/",
+          "pos": "adv.",
+          "meaning_cn": "也；而且",
+          "example_en": "I also like it.",
+          "example_cn": "我也喜欢它。",
+          "hint": "a + /ɔ/ 同样"
+        },
+        {
+          "id": "d2_030",
+          "word": "back",
+          "ipa": "/bæk/",
+          "pos": "adv.",
+          "meaning_cn": "回；向后",
+          "example_en": "Come back.",
+          "example_cn": "回来。",
+          "hint": "b + /b/ 后面"
+        },
+        {
+          "id": "d2_031",
+          "word": "after",
+          "ipa": "/ˈæftər/",
+          "pos": "prep.",
+          "meaning_cn": "在...之后",
+          "example_en": "After you.",
+          "example_cn": "你先请。",
+          "hint": "a + /æ/ 之后"
+        },
+        {
+          "id": "d2_032",
+          "word": "use",
+          "ipa": "/juz/",
+          "pos": "v.",
+          "meaning_cn": "使用",
+          "example_en": "Use your brain.",
+          "example_cn": "动动脑子。",
+          "hint": "u + /ju/ 利用"
+        },
+        {
+          "id": "d2_033",
+          "word": "two",
+          "ipa": "/tu/",
+          "pos": "num.",
+          "meaning_cn": "二",
+          "example_en": "Two tickets, please.",
+          "example_cn": "请给我两张票。",
+          "hint": "t + /t/ 数字2"
+        },
+        {
+          "id": "d2_034",
+          "word": "how",
+          "ipa": "/haʊ/",
+          "pos": "adv.",
+          "meaning_cn": "如何；多少",
+          "example_en": "How are you?",
+          "example_cn": "你好吗？",
+          "hint": "h + /h/ 方式"
+        },
+        {
+          "id": "d2_035",
+          "word": "our",
+          "ipa": "/aʊər/",
+          "pos": "pron.",
+          "meaning_cn": "我们的",
+          "example_en": "This is our home.",
+          "example_cn": "这是我们的家。",
+          "hint": "ou + /aʊ/ 复数所有格"
+        },
+        {
+          "id": "d2_036",
+          "word": "work",
+          "ipa": "/wɜrk/",
+          "pos": "v.",
+          "meaning_cn": "工作；运作",
+          "example_en": "Good work.",
+          "example_cn": "干得好。",
+          "hint": "w + /w/ 劳动"
+        },
+        {
+          "id": "d2_037",
+          "word": "first",
+          "ipa": "/fɜrst/",
+          "pos": "adj.",
+          "meaning_cn": "第一的",
+          "example_en": "Ladies first.",
+          "example_cn": "女士优先。",
+          "hint": "f + /f/ 首要"
+        },
+        {
+          "id": "d2_038",
+          "word": "well",
+          "ipa": "/wɛl/",
+          "pos": "adv.",
+          "meaning_cn": "好；令人满意地",
+          "example_en": "Well done.",
+          "example_cn": "做得好。",
+          "hint": "w + /w/ 良好"
+        },
+        {
+          "id": "d2_039",
+          "word": "way",
+          "ipa": "/weɪ/",
+          "pos": "n.",
+          "meaning_cn": "道路；方式",
+          "example_en": "This way, please.",
+          "example_cn": "这边请。",
+          "hint": "w + /w/ 路径"
+        },
+        {
+          "id": "d2_040",
+          "word": "even",
+          "ipa": "/ˈivən/",
+          "pos": "adv.",
+          "meaning_cn": "甚至；即使",
+          "example_en": "Even a child knows that.",
+          "example_cn": "连小孩都知道。",
+          "hint": "e + /i/ 强调"
+        },
+        {
+          "id": "d2_041",
+          "word": "new",
+          "ipa": "/nu/",
+          "pos": "adj.",
+          "meaning_cn": "新的",
+          "example_en": "Happy New Year.",
+          "example_cn": "新年快乐。",
+          "hint": "n + /n/ 新鲜"
+        },
+        {
+          "id": "d2_042",
+          "word": "want",
+          "ipa": "/wɑnt/",
+          "pos": "v.",
+          "meaning_cn": "想要",
+          "example_en": "I want to go.",
+          "example_cn": "我想去。",
+          "hint": "w + /w/ 意愿"
+        },
+        {
+          "id": "d2_043",
+          "word": "because",
+          "ipa": "/bɪˈkɔz/",
+          "pos": "conj.",
+          "meaning_cn": "因为",
+          "example_en": "Because I love you.",
+          "example_cn": "因为我爱你。",
+          "hint": "b + /b/ 原因"
+        },
+        {
+          "id": "d2_044",
+          "word": "any",
+          "ipa": "/ˈɛni/",
+          "pos": "adj.",
+          "meaning_cn": "任何的",
+          "example_en": "Any questions?",
+          "example_cn": "有什么问题吗？",
+          "hint": "a + /ɛ/ 任意"
+        },
+        {
+          "id": "d2_045",
+          "word": "these",
+          "ipa": "/ðiz/",
+          "pos": "pron.",
+          "meaning_cn": "这些",
+          "example_en": "These are mine.",
+          "example_cn": "这些是我的。",
+          "hint": "th + /ð/ 复数近指"
+        },
+        {
+          "id": "d2_046",
+          "word": "give",
+          "ipa": "/ɡɪv/",
+          "pos": "v.",
+          "meaning_cn": "给",
+          "example_en": "Give me a hand.",
+          "example_cn": "帮我一把。",
+          "hint": "g + /ɡ/ 给予"
+        },
+        {
+          "id": "d2_047",
+          "word": "day",
+          "ipa": "/deɪ/",
+          "pos": "n.",
+          "meaning_cn": "天；白天",
+          "example_en": "Have a nice day.",
+          "example_cn": "祝你过得愉快。",
+          "hint": "d + /d/ 日子"
+        },
+        {
+          "id": "d2_048",
+          "word": "most",
+          "ipa": "/moʊst/",
+          "pos": "adv.",
+          "meaning_cn": "最；非常",
+          "example_en": "Most people agree.",
+          "example_cn": "大多数人同意。",
+          "hint": "m + /m/ 最高级"
+        },
+        {
+          "id": "d2_049",
+          "word": "us",
+          "ipa": "/ʌs/",
+          "pos": "pron.",
+          "meaning_cn": "我们（宾格）",
+          "example_en": "Join us.",
+          "example_cn": "加入我们。",
+          "hint": "u + /ʌ/ 复数宾格"
+        },
+        {
+          "id": "d2_050",
+          "word": "is",
+          "ipa": "/ɪz/",
+          "pos": "v.",
+          "meaning_cn": "是（be的第三人称单数）",
+          "example_en": "He is a teacher.",
+          "example_cn": "他是一名老师。",
+          "hint": "i + /ɪ/ 存在"
+        }
+      ],
+      "homework": {
+        "title": "今日小作业",
+        "description": "选3个今天学到的动词（如 make, take, give），分别造一个简单的祈使句。",
+        "placeholder": "例如：Take a seat. (请坐)"
+      },
+      "review_questions": [
+        "can 和 could 有什么区别？",
+        "into 和 in 的区别是什么？",
+        "你记住了哪个动词的搭配？"
+      ],
+      "common_errors": [
+        {
+          "title": "can后面接动词原形",
+          "content": "I can swim (对), I can swimming (错)。情态动词后直接加动词原形。"
+        },
+        {
+          "title": "look 和 see 的区别",
+          "content": "look 是动作（看），see 是结果（看见）。Look at the picture. I see a bird."
+        },
+        {
+          "title": "its 和 it's 的区别",
+          "content": "its 是“它的”（所有格），it's 是“it is”的缩写（它是）。"
+        },
+        {
+          "title": "some 和 any 的用法",
+          "content": "some 通常用于肯定句，any 通常用于否定句和疑问句。"
+        },
+        {
+          "title": "good 和 well 的区别",
+          "content": "good 是形容词（好的），well 是副词（好地）。He is a good student. He studies well."
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "title": "高频名词/形容词",
+      "goals": [
+        "掌握50个常用名词和形容词",
+        "学会用形容词修饰名词",
+        "积累生活常见物品词汇"
+      ],
+      "methods": [
+        {
+          "title": "视觉记忆",
+          "content": "看到实物时，尝试说出对应的英文单词（如看到桌子说 table）。"
+        },
+        {
+          "title": "反义词记忆",
+          "content": "成对记忆形容词，如 big - small, good - bad。"
+        },
+        {
+          "title": "词块记忆",
+          "content": "记忆形容词+名词的组合，如 a big house, a good friend。"
+        }
+      ],
+      "words": [
+        {
+          "id": "d3_001",
+          "word": "mad",
+          "ipa": "/mæd/",
+          "pos": "mix",
+          "meaning_cn": "生气的",
+          "example_en": "Are you mad?",
+          "example_cn": "你生气了吗？",
+          "hint": "首字母 m"
+        },
+        {
+          "id": "d3_002",
+          "word": "down",
+          "ipa": "/daʊn/",
+          "pos": "mix",
+          "meaning_cn": "向下",
+          "example_en": "Sit down.",
+          "example_cn": "坐下。",
+          "hint": "首字母 d"
+        },
+        {
+          "id": "d3_003",
+          "word": "quit",
+          "ipa": "/kwɪt/",
+          "pos": "mix",
+          "meaning_cn": "退出",
+          "example_en": "Quit game.",
+          "example_cn": "退出游戏。",
+          "hint": "首字母 q"
+        },
+        {
+          "id": "d3_004",
+          "word": "juice",
+          "ipa": "/dʒus/",
+          "pos": "mix",
+          "meaning_cn": "果汁",
+          "example_en": "Orange juice.",
+          "example_cn": "橙汁。",
+          "hint": "首字母 j"
+        },
+        {
+          "id": "d3_005",
+          "word": "safe",
+          "ipa": "/seɪf/",
+          "pos": "mix",
+          "meaning_cn": "安全的",
+          "example_en": "Safe trip.",
+          "example_cn": "安全旅途。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d3_006",
+          "word": "on",
+          "ipa": "/ɑn/",
+          "pos": "mix",
+          "meaning_cn": "在上面",
+          "example_en": "On the table.",
+          "example_cn": "在桌上。",
+          "hint": "首字母 o"
+        },
+        {
+          "id": "d3_007",
+          "word": "wait",
+          "ipa": "/weɪt/",
+          "pos": "mix",
+          "meaning_cn": "等待",
+          "example_en": "Wait for me.",
+          "example_cn": "等我。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d3_008",
+          "word": "why",
+          "ipa": "/waɪ/",
+          "pos": "mix",
+          "meaning_cn": "为什么",
+          "example_en": "Why not?",
+          "example_cn": "为什么不？",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d3_009",
+          "word": "fry",
+          "ipa": "/fraɪ/",
+          "pos": "mix",
+          "meaning_cn": "油炸",
+          "example_en": "Fry egg.",
+          "example_cn": "煎蛋。",
+          "hint": "首字母 f"
+        },
+        {
+          "id": "d3_010",
+          "word": "queen",
+          "ipa": "/kwin/",
+          "pos": "mix",
+          "meaning_cn": "女王",
+          "example_en": "The queen is here.",
+          "example_cn": "女王来了。",
+          "hint": "首字母 q"
+        },
+        {
+          "id": "d3_011",
+          "word": "off",
+          "ipa": "/ɔf/",
+          "pos": "mix",
+          "meaning_cn": "离开",
+          "example_en": "Turn off.",
+          "example_cn": "关掉。",
+          "hint": "首字母 o"
+        },
+        {
+          "id": "d3_012",
+          "word": "dog",
+          "ipa": "/dɔɡ/",
+          "pos": "mix",
+          "meaning_cn": "狗",
+          "example_en": "I have a dog.",
+          "example_cn": "我有一只狗。",
+          "hint": "首字母 d"
+        },
+        {
+          "id": "d3_013",
+          "word": "walk",
+          "ipa": "/wɔk/",
+          "pos": "mix",
+          "meaning_cn": "走",
+          "example_en": "Walk away.",
+          "example_cn": "走开。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d3_014",
+          "word": "sad",
+          "ipa": "/sæd/",
+          "pos": "mix",
+          "meaning_cn": "伤心的",
+          "example_en": "Don't be sad.",
+          "example_cn": "别伤心。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d3_015",
+          "word": "sit",
+          "ipa": "/sɪt/",
+          "pos": "mix",
+          "meaning_cn": "坐",
+          "example_en": "Sit down.",
+          "example_cn": "坐下。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d3_016",
+          "word": "long",
+          "ipa": "/lɔŋ/",
+          "pos": "mix",
+          "meaning_cn": "长的",
+          "example_en": "Long hair.",
+          "example_cn": "长发。",
+          "hint": "首字母 l"
+        },
+        {
+          "id": "d3_017",
+          "word": "food",
+          "ipa": "/fud/",
+          "pos": "mix",
+          "meaning_cn": "食物",
+          "example_en": "Good food.",
+          "example_cn": "好吃的食物。",
+          "hint": "首字母 f"
+        },
+        {
+          "id": "d3_018",
+          "word": "back",
+          "ipa": "/bæk/",
+          "pos": "mix",
+          "meaning_cn": "后面",
+          "example_en": "Go back.",
+          "example_cn": "回去。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d3_019",
+          "word": "pay",
+          "ipa": "/peɪ/",
+          "pos": "mix",
+          "meaning_cn": "支付",
+          "example_en": "Pay money.",
+          "example_cn": "付钱。",
+          "hint": "首字母 p"
+        },
+        {
+          "id": "d3_020",
+          "word": "read",
+          "ipa": "/rid/",
+          "pos": "mix",
+          "meaning_cn": "读",
+          "example_en": "Read book.",
+          "example_cn": "读书。",
+          "hint": "首字母 r"
+        },
+        {
+          "id": "d3_021",
+          "word": "some",
+          "ipa": "/sʌm/",
+          "pos": "mix",
+          "meaning_cn": "一些",
+          "example_en": "Some food.",
+          "example_cn": "一些食物。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d3_022",
+          "word": "buy",
+          "ipa": "/baɪ/",
+          "pos": "mix",
+          "meaning_cn": "买",
+          "example_en": "Buy food.",
+          "example_cn": "买食物。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d3_023",
+          "word": "who",
+          "ipa": "/hu/",
+          "pos": "mix",
+          "meaning_cn": "谁",
+          "example_en": "Who is he?",
+          "example_cn": "他是谁？",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d3_024",
+          "word": "park",
+          "ipa": "/pɑrk/",
+          "pos": "mix",
+          "meaning_cn": "公园",
+          "example_en": "Walk in the park.",
+          "example_cn": "在公园散步。",
+          "hint": "首字母 p"
+        },
+        {
+          "id": "d3_025",
+          "word": "again",
+          "ipa": "/əˈɡɛn/",
+          "pos": "mix",
+          "meaning_cn": "再一次",
+          "example_en": "Try again.",
+          "example_cn": "再试一次。",
+          "hint": "首字母 a"
+        },
+        {
+          "id": "d3_026",
+          "word": "what",
+          "ipa": "/wʌt/",
+          "pos": "mix",
+          "meaning_cn": "什么",
+          "example_en": "What is this?",
+          "example_cn": "这是什么？",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d3_027",
+          "word": "for",
+          "ipa": "/fɔr/",
+          "pos": "mix",
+          "meaning_cn": "为了",
+          "example_en": "For you.",
+          "example_cn": "为了你。",
+          "hint": "首字母 f"
+        },
+        {
+          "id": "d3_028",
+          "word": "join",
+          "ipa": "/dʒɔɪn/",
+          "pos": "mix",
+          "meaning_cn": "加入",
+          "example_en": "Join us.",
+          "example_cn": "加入我们。",
+          "hint": "首字母 j"
+        },
+        {
+          "id": "d3_029",
+          "word": "high",
+          "ipa": "/haɪ/",
+          "pos": "mix",
+          "meaning_cn": "高的",
+          "example_en": "High mountain.",
+          "example_cn": "高山。",
+          "hint": "首字母 h"
+        },
+        {
+          "id": "d3_030",
+          "word": "before",
+          "ipa": "/bɪˈfɔr/",
+          "pos": "mix",
+          "meaning_cn": "在之前",
+          "example_en": "Before lunch.",
+          "example_cn": "午饭前。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d3_031",
+          "word": "just",
+          "ipa": "/dʒʌst/",
+          "pos": "mix",
+          "meaning_cn": "仅仅",
+          "example_en": "Just one.",
+          "example_cn": "只要一个。",
+          "hint": "首字母 j"
+        },
+        {
+          "id": "d3_032",
+          "word": "school",
+          "ipa": "/skul/",
+          "pos": "mix",
+          "meaning_cn": "学校",
+          "example_en": "Go to school.",
+          "example_cn": "去上学。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d3_033",
+          "word": "ever",
+          "ipa": "/ˈɛvər/",
+          "pos": "mix",
+          "meaning_cn": "曾经",
+          "example_en": "Ever seen?",
+          "example_cn": "见过吗？",
+          "hint": "首字母 e"
+        },
+        {
+          "id": "d3_034",
+          "word": "key",
+          "ipa": "/ki/",
+          "pos": "mix",
+          "meaning_cn": "钥匙",
+          "example_en": "Where is my key?",
+          "example_cn": "我的钥匙在哪？",
+          "hint": "首字母 k"
+        },
+        {
+          "id": "d3_035",
+          "word": "happy",
+          "ipa": "/ˈhæpi/",
+          "pos": "mix",
+          "meaning_cn": "快乐的",
+          "example_en": "Happy birthday.",
+          "example_cn": "生日快乐。",
+          "hint": "首字母 h"
+        },
+        {
+          "id": "d3_036",
+          "word": "home",
+          "ipa": "/hoʊm/",
+          "pos": "mix",
+          "meaning_cn": "家",
+          "example_en": "Go home.",
+          "example_cn": "回家。",
+          "hint": "首字母 h"
+        },
+        {
+          "id": "d3_037",
+          "word": "ugly",
+          "ipa": "/ˈʌɡli/",
+          "pos": "mix",
+          "meaning_cn": "丑的",
+          "example_en": "Ugly duckling.",
+          "example_cn": "丑小鸭。",
+          "hint": "首字母 u"
+        },
+        {
+          "id": "d3_038",
+          "word": "to",
+          "ipa": "/tu/",
+          "pos": "mix",
+          "meaning_cn": "去/给",
+          "example_en": "To school.",
+          "example_cn": "去学校。",
+          "hint": "首字母 t"
+        },
+        {
+          "id": "d3_039",
+          "word": "in",
+          "ipa": "/ɪn/",
+          "pos": "mix",
+          "meaning_cn": "在里面",
+          "example_en": "Come in.",
+          "example_cn": "进来。",
+          "hint": "首字母 i"
+        },
+        {
+          "id": "d3_040",
+          "word": "so",
+          "ipa": "/soʊ/",
+          "pos": "mix",
+          "meaning_cn": "所以/如此",
+          "example_en": "So happy.",
+          "example_cn": "如此快乐。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d3_041",
+          "word": "keep",
+          "ipa": "/kip/",
+          "pos": "mix",
+          "meaning_cn": "保持",
+          "example_en": "Keep quiet.",
+          "example_cn": "保持安静。",
+          "hint": "首字母 k"
+        },
+        {
+          "id": "d3_042",
+          "word": "from",
+          "ipa": "/frʌm/",
+          "pos": "mix",
+          "meaning_cn": "来自",
+          "example_en": "From China.",
+          "example_cn": "来自中国。",
+          "hint": "首字母 f"
+        },
+        {
+          "id": "d3_043",
+          "word": "dry",
+          "ipa": "/draɪ/",
+          "pos": "mix",
+          "meaning_cn": "弄干",
+          "example_en": "Dry hair.",
+          "example_cn": "弄干头发。",
+          "hint": "首字母 d"
+        },
+        {
+          "id": "d3_044",
+          "word": "open",
+          "ipa": "/ˈoʊpən/",
+          "pos": "mix",
+          "meaning_cn": "打开",
+          "example_en": "Open it.",
+          "example_cn": "打开它。",
+          "hint": "首字母 o"
+        },
+        {
+          "id": "d3_045",
+          "word": "kite",
+          "ipa": "/kaɪt/",
+          "pos": "mix",
+          "meaning_cn": "风筝",
+          "example_en": "Fly a kite.",
+          "example_cn": "放风筝。",
+          "hint": "首字母 k"
+        },
+        {
+          "id": "d3_046",
+          "word": "rich",
+          "ipa": "/rɪtʃ/",
+          "pos": "mix",
+          "meaning_cn": "富有的",
+          "example_en": "Rich man.",
+          "example_cn": "富人。",
+          "hint": "首字母 r"
+        },
+        {
+          "id": "d3_047",
+          "word": "zoo",
+          "ipa": "/zu/",
+          "pos": "mix",
+          "meaning_cn": "动物园",
+          "example_en": "Go to the zoo.",
+          "example_cn": "去动物园。",
+          "hint": "首字母 z"
+        },
+        {
+          "id": "d3_048",
+          "word": "job",
+          "ipa": "/dʒɑb/",
+          "pos": "mix",
+          "meaning_cn": "工作",
+          "example_en": "Good job.",
+          "example_cn": "干得好。",
+          "hint": "首字母 j"
+        },
+        {
+          "id": "d3_049",
+          "word": "after",
+          "ipa": "/ˈæftər/",
+          "pos": "mix",
+          "meaning_cn": "在之后",
+          "example_en": "After school.",
+          "example_cn": "放学后。",
+          "hint": "首字母 a"
+        },
+        {
+          "id": "d3_050",
+          "word": "beg",
+          "ipa": "/bɛɡ/",
+          "pos": "mix",
+          "meaning_cn": "乞求",
+          "example_en": "I beg you.",
+          "example_cn": "我求你。",
+          "hint": "首字母 b"
+        }
+      ],
+      "homework": {
+        "title": "今日小作业",
+        "description": "用今天学到的形容词描述你周围的3个物品。",
+        "placeholder": "例如：This is a big table."
+      },
+      "review_questions": [
+        "你能说出3对反义词吗？",
+        "你记住了哪些描述颜色的词？",
+        "用一个形容词形容你自己。"
+      ],
+      "common_errors": []
+    },
+    {
+      "day": 4,
+      "title": "时间地点日常生活",
+      "goals": [
+        "掌握时间、地点相关词汇",
+        "学会表达日常活动",
+        "理解常用方位介词"
+      ],
+      "methods": [
+        {
+          "title": "日程表法",
+          "content": "尝试用英文写下你一天的日程安排。"
+        },
+        {
+          "title": "地图法",
+          "content": "画一张简单的地图，标记出学校、家、商店等位置。"
+        },
+        {
+          "title": "情景模拟",
+          "content": "想象自己在问路或告诉别人时间。"
+        }
+      ],
+      "words": [
+        {
+          "id": "d4_001",
+          "word": "mad",
+          "ipa": "/mæd/",
+          "pos": "mix",
+          "meaning_cn": "生气的",
+          "example_en": "Are you mad?",
+          "example_cn": "你生气了吗？",
+          "hint": "首字母 m"
+        },
+        {
+          "id": "d4_002",
+          "word": "happy",
+          "ipa": "/ˈhæpi/",
+          "pos": "mix",
+          "meaning_cn": "快乐的",
+          "example_en": "Happy birthday.",
+          "example_cn": "生日快乐。",
+          "hint": "首字母 h"
+        },
+        {
+          "id": "d4_003",
+          "word": "car",
+          "ipa": "/kɑr/",
+          "pos": "mix",
+          "meaning_cn": "车",
+          "example_en": "Drive a car.",
+          "example_cn": "开车。",
+          "hint": "首字母 c"
+        },
+        {
+          "id": "d4_004",
+          "word": "again",
+          "ipa": "/əˈɡɛn/",
+          "pos": "mix",
+          "meaning_cn": "再一次",
+          "example_en": "Try again.",
+          "example_cn": "再试一次。",
+          "hint": "首字母 a"
+        },
+        {
+          "id": "d4_005",
+          "word": "buy",
+          "ipa": "/baɪ/",
+          "pos": "mix",
+          "meaning_cn": "买",
+          "example_en": "Buy food.",
+          "example_cn": "买食物。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d4_006",
+          "word": "work",
+          "ipa": "/wɜrk/",
+          "pos": "mix",
+          "meaning_cn": "工作",
+          "example_en": "Work hard.",
+          "example_cn": "努力工作。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d4_007",
+          "word": "room",
+          "ipa": "/rum/",
+          "pos": "mix",
+          "meaning_cn": "房间",
+          "example_en": "Clean the room.",
+          "example_cn": "打扫房间。",
+          "hint": "首字母 r"
+        },
+        {
+          "id": "d4_008",
+          "word": "box",
+          "ipa": "/bɑks/",
+          "pos": "mix",
+          "meaning_cn": "盒子",
+          "example_en": "Open the box.",
+          "example_cn": "打开盒子。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d4_009",
+          "word": "rain",
+          "ipa": "/reɪn/",
+          "pos": "mix",
+          "meaning_cn": "雨",
+          "example_en": "It is raining.",
+          "example_cn": "下雨了。",
+          "hint": "首字母 r"
+        },
+        {
+          "id": "d4_010",
+          "word": "fish",
+          "ipa": "/fɪʃ/",
+          "pos": "mix",
+          "meaning_cn": "鱼",
+          "example_en": "Fish swim in water.",
+          "example_cn": "鱼在水里游。",
+          "hint": "首字母 f"
+        },
+        {
+          "id": "d4_011",
+          "word": "call",
+          "ipa": "/kɔl/",
+          "pos": "mix",
+          "meaning_cn": "打电话",
+          "example_en": "Call me.",
+          "example_cn": "给我打电话。",
+          "hint": "首字母 c"
+        },
+        {
+          "id": "d4_012",
+          "word": "read",
+          "ipa": "/rid/",
+          "pos": "mix",
+          "meaning_cn": "读",
+          "example_en": "Read book.",
+          "example_cn": "读书。",
+          "hint": "首字母 r"
+        },
+        {
+          "id": "d4_013",
+          "word": "early",
+          "ipa": "/ˈɜrli/",
+          "pos": "mix",
+          "meaning_cn": "早的",
+          "example_en": "Wake up early.",
+          "example_cn": "早起。",
+          "hint": "首字母 e"
+        },
+        {
+          "id": "d4_014",
+          "word": "pen",
+          "ipa": "/pɛn/",
+          "pos": "mix",
+          "meaning_cn": "钢笔",
+          "example_en": "I have a pen.",
+          "example_cn": "我有一支钢笔。",
+          "hint": "首字母 p"
+        },
+        {
+          "id": "d4_015",
+          "word": "hot",
+          "ipa": "/hɑt/",
+          "pos": "mix",
+          "meaning_cn": "热的",
+          "example_en": "Hot tea.",
+          "example_cn": "热茶。",
+          "hint": "首字母 h"
+        },
+        {
+          "id": "d4_016",
+          "word": "join",
+          "ipa": "/dʒɔɪn/",
+          "pos": "mix",
+          "meaning_cn": "加入",
+          "example_en": "Join us.",
+          "example_cn": "加入我们。",
+          "hint": "首字母 j"
+        },
+        {
+          "id": "d4_017",
+          "word": "nod",
+          "ipa": "/nɑd/",
+          "pos": "mix",
+          "meaning_cn": "点头",
+          "example_en": "Nod head.",
+          "example_cn": "点头。",
+          "hint": "首字母 n"
+        },
+        {
+          "id": "d4_018",
+          "word": "soft",
+          "ipa": "/sɔft/",
+          "pos": "mix",
+          "meaning_cn": "软的",
+          "example_en": "Soft bed.",
+          "example_cn": "软床。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d4_019",
+          "word": "young",
+          "ipa": "/jʌŋ/",
+          "pos": "mix",
+          "meaning_cn": "年轻的",
+          "example_en": "Young people.",
+          "example_cn": "年轻人。",
+          "hint": "首字母 y"
+        },
+        {
+          "id": "d4_020",
+          "word": "year",
+          "ipa": "/jɪr/",
+          "pos": "mix",
+          "meaning_cn": "年",
+          "example_en": "Last year.",
+          "example_cn": "去年。",
+          "hint": "首字母 y"
+        },
+        {
+          "id": "d4_021",
+          "word": "door",
+          "ipa": "/dɔr/",
+          "pos": "mix",
+          "meaning_cn": "门",
+          "example_en": "Open the door.",
+          "example_cn": "开门。",
+          "hint": "首字母 d"
+        },
+        {
+          "id": "d4_022",
+          "word": "tall",
+          "ipa": "/tɔl/",
+          "pos": "mix",
+          "meaning_cn": "高的",
+          "example_en": "Tall tree.",
+          "example_cn": "高树。",
+          "hint": "首字母 t"
+        },
+        {
+          "id": "d4_023",
+          "word": "fast",
+          "ipa": "/fæst/",
+          "pos": "mix",
+          "meaning_cn": "快的",
+          "example_en": "Run fast.",
+          "example_cn": "跑得快。",
+          "hint": "首字母 f"
+        },
+        {
+          "id": "d4_024",
+          "word": "girl",
+          "ipa": "/ɡɜrl/",
+          "pos": "mix",
+          "meaning_cn": "女孩",
+          "example_en": "She is a girl.",
+          "example_cn": "她是个女孩。",
+          "hint": "首字母 g"
+        },
+        {
+          "id": "d4_025",
+          "word": "when",
+          "ipa": "/wɛn/",
+          "pos": "mix",
+          "meaning_cn": "什么时候",
+          "example_en": "When to go?",
+          "example_cn": "什么时候去？",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d4_026",
+          "word": "sad",
+          "ipa": "/sæd/",
+          "pos": "mix",
+          "meaning_cn": "伤心的",
+          "example_en": "Don't be sad.",
+          "example_cn": "别伤心。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d4_027",
+          "word": "warm",
+          "ipa": "/wɔrm/",
+          "pos": "mix",
+          "meaning_cn": "温暖的",
+          "example_en": "Warm day.",
+          "example_cn": "温暖的一天。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d4_028",
+          "word": "food",
+          "ipa": "/fud/",
+          "pos": "mix",
+          "meaning_cn": "食物",
+          "example_en": "Good food.",
+          "example_cn": "好吃的食物。",
+          "hint": "首字母 f"
+        },
+        {
+          "id": "d4_029",
+          "word": "voice",
+          "ipa": "/vɔɪs/",
+          "pos": "mix",
+          "meaning_cn": "声音",
+          "example_en": "Loud voice.",
+          "example_cn": "大声。",
+          "hint": "首字母 v"
+        },
+        {
+          "id": "d4_030",
+          "word": "nice",
+          "ipa": "/naɪs/",
+          "pos": "mix",
+          "meaning_cn": "好的",
+          "example_en": "Nice to meet you.",
+          "example_cn": "很高兴见到你。",
+          "hint": "首字母 n"
+        },
+        {
+          "id": "d4_031",
+          "word": "back",
+          "ipa": "/bæk/",
+          "pos": "mix",
+          "meaning_cn": "后面",
+          "example_en": "Go back.",
+          "example_cn": "回去。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d4_032",
+          "word": "why",
+          "ipa": "/waɪ/",
+          "pos": "mix",
+          "meaning_cn": "为什么",
+          "example_en": "Why not?",
+          "example_cn": "为什么不？",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d4_033",
+          "word": "strong",
+          "ipa": "/strɔŋ/",
+          "pos": "mix",
+          "meaning_cn": "强壮的",
+          "example_en": "Strong man.",
+          "example_cn": "强壮的人。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d4_034",
+          "word": "water",
+          "ipa": "/ˈwɔtər/",
+          "pos": "mix",
+          "meaning_cn": "水",
+          "example_en": "Drink some water.",
+          "example_cn": "喝点水。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d4_035",
+          "word": "off",
+          "ipa": "/ɔf/",
+          "pos": "mix",
+          "meaning_cn": "离开",
+          "example_en": "Turn off.",
+          "example_cn": "关掉。",
+          "hint": "首字母 o"
+        },
+        {
+          "id": "d4_036",
+          "word": "black",
+          "ipa": "/blæk/",
+          "pos": "mix",
+          "meaning_cn": "黑色的",
+          "example_en": "Black cat.",
+          "example_cn": "黑猫。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d4_037",
+          "word": "high",
+          "ipa": "/haɪ/",
+          "pos": "mix",
+          "meaning_cn": "高的",
+          "example_en": "High mountain.",
+          "example_cn": "高山。",
+          "hint": "首字母 h"
+        },
+        {
+          "id": "d4_038",
+          "word": "end",
+          "ipa": "/ɛnd/",
+          "pos": "mix",
+          "meaning_cn": "结束",
+          "example_en": "End story.",
+          "example_cn": "结束故事。",
+          "hint": "首字母 e"
+        },
+        {
+          "id": "d4_039",
+          "word": "poor",
+          "ipa": "/pʊr/",
+          "pos": "mix",
+          "meaning_cn": "穷的",
+          "example_en": "Poor guy.",
+          "example_cn": "可怜的家伙。",
+          "hint": "首字母 p"
+        },
+        {
+          "id": "d4_040",
+          "word": "zero",
+          "ipa": "/ˈzɪroʊ/",
+          "pos": "mix",
+          "meaning_cn": "零",
+          "example_en": "Zero point.",
+          "example_cn": "零点。",
+          "hint": "首字母 z"
+        },
+        {
+          "id": "d4_041",
+          "word": "how",
+          "ipa": "/haʊ/",
+          "pos": "mix",
+          "meaning_cn": "如何",
+          "example_en": "How are you?",
+          "example_cn": "你好吗？",
+          "hint": "首字母 h"
+        },
+        {
+          "id": "d4_042",
+          "word": "wait",
+          "ipa": "/weɪt/",
+          "pos": "mix",
+          "meaning_cn": "等待",
+          "example_en": "Wait for me.",
+          "example_cn": "等我。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d4_043",
+          "word": "busy",
+          "ipa": "/ˈbɪzi/",
+          "pos": "mix",
+          "meaning_cn": "忙的",
+          "example_en": "I am busy.",
+          "example_cn": "我很忙。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d4_044",
+          "word": "yes",
+          "ipa": "/jɛs/",
+          "pos": "mix",
+          "meaning_cn": "是",
+          "example_en": "Yes, I do.",
+          "example_cn": "是的，我愿意。",
+          "hint": "首字母 y"
+        },
+        {
+          "id": "d4_045",
+          "word": "before",
+          "ipa": "/bɪˈfɔr/",
+          "pos": "mix",
+          "meaning_cn": "在之前",
+          "example_en": "Before lunch.",
+          "example_cn": "午饭前。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d4_046",
+          "word": "great",
+          "ipa": "/ɡreɪt/",
+          "pos": "mix",
+          "meaning_cn": "棒的",
+          "example_en": "Great job.",
+          "example_cn": "干得棒。",
+          "hint": "首字母 g"
+        },
+        {
+          "id": "d4_047",
+          "word": "book",
+          "ipa": "/bʊk/",
+          "pos": "mix",
+          "meaning_cn": "书",
+          "example_en": "Read a book.",
+          "example_cn": "读一本书。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d4_048",
+          "word": "very",
+          "ipa": "/ˈvɛri/",
+          "pos": "mix",
+          "meaning_cn": "非常",
+          "example_en": "Very good.",
+          "example_cn": "非常好。",
+          "hint": "首字母 v"
+        },
+        {
+          "id": "d4_049",
+          "word": "cry",
+          "ipa": "/kraɪ/",
+          "pos": "mix",
+          "meaning_cn": "哭",
+          "example_en": "Don't cry.",
+          "example_cn": "别哭。",
+          "hint": "首字母 c"
+        },
+        {
+          "id": "d4_050",
+          "word": "too",
+          "ipa": "/tu/",
+          "pos": "mix",
+          "meaning_cn": "也/太",
+          "example_en": "Me too.",
+          "example_cn": "我也是。",
+          "hint": "首字母 t"
+        }
+      ],
+      "homework": {
+        "title": "今日小作业",
+        "description": "写下你明天要做的一件事，包含时间和地点。",
+        "placeholder": "例如：I will go to school at 8:00."
+      },
+      "review_questions": [
+        "如何用英语表达现在的时间？",
+        "你能说出5个表示地点的词吗？",
+        "morning, afternoon, evening 分别是什么时候？"
+      ],
+      "common_errors": []
+    },
+    {
+      "day": 5,
+      "title": "工作学习沟通",
+      "goals": [
+        "掌握工作、学习场景词汇",
+        "学会基本的沟通表达",
+        "理解常用商务/校园词汇"
+      ],
+      "methods": [
+        {
+          "title": "角色扮演",
+          "content": "扮演学生或职员，模拟对话场景。"
+        },
+        {
+          "title": "分类记忆",
+          "content": "将单词分为“学校”、“办公室”、“会议”等类别。"
+        },
+        {
+          "title": "例句应用",
+          "content": "多读例句，体会单词在具体语境中的用法。"
+        }
+      ],
+      "words": [
+        {
+          "id": "d5_001",
+          "word": "then",
+          "ipa": "/ðɛn/",
+          "pos": "mix",
+          "meaning_cn": "那时",
+          "example_en": "See you then.",
+          "example_cn": "那时见。",
+          "hint": "首字母 t"
+        },
+        {
+          "id": "d5_002",
+          "word": "red",
+          "ipa": "/rɛd/",
+          "pos": "mix",
+          "meaning_cn": "红色的",
+          "example_en": "Red apple.",
+          "example_cn": "红苹果。",
+          "hint": "首字母 r"
+        },
+        {
+          "id": "d5_003",
+          "word": "after",
+          "ipa": "/ˈæftər/",
+          "pos": "mix",
+          "meaning_cn": "在之后",
+          "example_en": "After school.",
+          "example_cn": "放学后。",
+          "hint": "首字母 a"
+        },
+        {
+          "id": "d5_004",
+          "word": "hard",
+          "ipa": "/hɑrd/",
+          "pos": "mix",
+          "meaning_cn": "困难的/硬的",
+          "example_en": "Work hard.",
+          "example_cn": "努力工作。",
+          "hint": "首字母 h"
+        },
+        {
+          "id": "d5_005",
+          "word": "for",
+          "ipa": "/fɔr/",
+          "pos": "mix",
+          "meaning_cn": "为了",
+          "example_en": "For you.",
+          "example_cn": "为了你。",
+          "hint": "首字母 f"
+        },
+        {
+          "id": "d5_006",
+          "word": "well",
+          "ipa": "/wɛl/",
+          "pos": "mix",
+          "meaning_cn": "好",
+          "example_en": "Well done.",
+          "example_cn": "做得好。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d5_007",
+          "word": "yes",
+          "ipa": "/jɛs/",
+          "pos": "mix",
+          "meaning_cn": "是",
+          "example_en": "Yes, I do.",
+          "example_cn": "是的，我愿意。",
+          "hint": "首字母 y"
+        },
+        {
+          "id": "d5_008",
+          "word": "let",
+          "ipa": "/lɛt/",
+          "pos": "mix",
+          "meaning_cn": "让",
+          "example_en": "Let go.",
+          "example_cn": "放手。",
+          "hint": "首字母 l"
+        },
+        {
+          "id": "d5_009",
+          "word": "home",
+          "ipa": "/hoʊm/",
+          "pos": "mix",
+          "meaning_cn": "家",
+          "example_en": "Go home.",
+          "example_cn": "回家。",
+          "hint": "首字母 h"
+        },
+        {
+          "id": "d5_010",
+          "word": "visit",
+          "ipa": "/ˈvɪzɪt/",
+          "pos": "mix",
+          "meaning_cn": "参观",
+          "example_en": "Visit museum.",
+          "example_cn": "参观博物馆。",
+          "hint": "首字母 v"
+        },
+        {
+          "id": "d5_011",
+          "word": "poor",
+          "ipa": "/pʊr/",
+          "pos": "mix",
+          "meaning_cn": "穷的",
+          "example_en": "Poor guy.",
+          "example_cn": "可怜的家伙。",
+          "hint": "首字母 p"
+        },
+        {
+          "id": "d5_012",
+          "word": "some",
+          "ipa": "/sʌm/",
+          "pos": "mix",
+          "meaning_cn": "一些",
+          "example_en": "Some food.",
+          "example_cn": "一些食物。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d5_013",
+          "word": "name",
+          "ipa": "/neɪm/",
+          "pos": "mix",
+          "meaning_cn": "名字",
+          "example_en": "My name is Tom.",
+          "example_cn": "我叫汤姆。",
+          "hint": "首字母 n"
+        },
+        {
+          "id": "d5_014",
+          "word": "school",
+          "ipa": "/skul/",
+          "pos": "mix",
+          "meaning_cn": "学校",
+          "example_en": "Go to school.",
+          "example_cn": "去上学。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d5_015",
+          "word": "eye",
+          "ipa": "/aɪ/",
+          "pos": "mix",
+          "meaning_cn": "眼睛",
+          "example_en": "Close your eyes.",
+          "example_cn": "闭上眼睛。",
+          "hint": "首字母 e"
+        },
+        {
+          "id": "d5_016",
+          "word": "strong",
+          "ipa": "/strɔŋ/",
+          "pos": "mix",
+          "meaning_cn": "强壮的",
+          "example_en": "Strong man.",
+          "example_cn": "强壮的人。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d5_017",
+          "word": "walk",
+          "ipa": "/wɔk/",
+          "pos": "mix",
+          "meaning_cn": "走",
+          "example_en": "Walk away.",
+          "example_cn": "走开。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d5_018",
+          "word": "such",
+          "ipa": "/sʌtʃ/",
+          "pos": "mix",
+          "meaning_cn": "这样的",
+          "example_en": "Such a day.",
+          "example_cn": "这样的一天。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d5_019",
+          "word": "wide",
+          "ipa": "/waɪd/",
+          "pos": "mix",
+          "meaning_cn": "宽的",
+          "example_en": "Wide road.",
+          "example_cn": "宽路。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d5_020",
+          "word": "quit",
+          "ipa": "/kwɪt/",
+          "pos": "mix",
+          "meaning_cn": "退出",
+          "example_en": "Quit game.",
+          "example_cn": "退出游戏。",
+          "hint": "首字母 q"
+        },
+        {
+          "id": "d5_021",
+          "word": "car",
+          "ipa": "/kɑr/",
+          "pos": "mix",
+          "meaning_cn": "车",
+          "example_en": "Drive a car.",
+          "example_cn": "开车。",
+          "hint": "首字母 c"
+        },
+        {
+          "id": "d5_022",
+          "word": "cry",
+          "ipa": "/kraɪ/",
+          "pos": "mix",
+          "meaning_cn": "哭",
+          "example_en": "Don't cry.",
+          "example_cn": "别哭。",
+          "hint": "首字母 c"
+        },
+        {
+          "id": "d5_023",
+          "word": "of",
+          "ipa": "/ʌv/",
+          "pos": "mix",
+          "meaning_cn": "的",
+          "example_en": "Cup of tea.",
+          "example_cn": "一杯茶。",
+          "hint": "首字母 o"
+        },
+        {
+          "id": "d5_024",
+          "word": "dog",
+          "ipa": "/dɔɡ/",
+          "pos": "mix",
+          "meaning_cn": "狗",
+          "example_en": "I have a dog.",
+          "example_cn": "我有一只狗。",
+          "hint": "首字母 d"
+        },
+        {
+          "id": "d5_025",
+          "word": "good",
+          "ipa": "/ɡʊd/",
+          "pos": "mix",
+          "meaning_cn": "好的",
+          "example_en": "Good boy.",
+          "example_cn": "好孩子。",
+          "hint": "首字母 g"
+        },
+        {
+          "id": "d5_026",
+          "word": "eat",
+          "ipa": "/it/",
+          "pos": "mix",
+          "meaning_cn": "吃",
+          "example_en": "Eat apple.",
+          "example_cn": "吃苹果。",
+          "hint": "首字母 e"
+        },
+        {
+          "id": "d5_027",
+          "word": "busy",
+          "ipa": "/ˈbɪzi/",
+          "pos": "mix",
+          "meaning_cn": "忙的",
+          "example_en": "I am busy.",
+          "example_cn": "我很忙。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d5_028",
+          "word": "bird",
+          "ipa": "/bɜrd/",
+          "pos": "mix",
+          "meaning_cn": "鸟",
+          "example_en": "A bird flies.",
+          "example_cn": "鸟在飞。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d5_029",
+          "word": "high",
+          "ipa": "/haɪ/",
+          "pos": "mix",
+          "meaning_cn": "高的",
+          "example_en": "High mountain.",
+          "example_cn": "高山。",
+          "hint": "首字母 h"
+        },
+        {
+          "id": "d5_030",
+          "word": "any",
+          "ipa": "/ˈɛni/",
+          "pos": "mix",
+          "meaning_cn": "任何",
+          "example_en": "Any time.",
+          "example_cn": "任何时间。",
+          "hint": "首字母 a"
+        },
+        {
+          "id": "d5_031",
+          "word": "sun",
+          "ipa": "/sʌn/",
+          "pos": "mix",
+          "meaning_cn": "太阳",
+          "example_en": "The sun is hot.",
+          "example_cn": "太阳很热。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d5_032",
+          "word": "leg",
+          "ipa": "/lɛɡ/",
+          "pos": "mix",
+          "meaning_cn": "腿",
+          "example_en": "My leg hurts.",
+          "example_cn": "我的腿疼。",
+          "hint": "首字母 l"
+        },
+        {
+          "id": "d5_033",
+          "word": "now",
+          "ipa": "/naʊ/",
+          "pos": "mix",
+          "meaning_cn": "现在",
+          "example_en": "Do it now.",
+          "example_cn": "现在做。",
+          "hint": "首字母 n"
+        },
+        {
+          "id": "d5_034",
+          "word": "no",
+          "ipa": "/noʊ/",
+          "pos": "mix",
+          "meaning_cn": "不",
+          "example_en": "No, thanks.",
+          "example_cn": "不，谢谢。",
+          "hint": "首字母 n"
+        },
+        {
+          "id": "d5_035",
+          "word": "open",
+          "ipa": "/ˈoʊpən/",
+          "pos": "mix",
+          "meaning_cn": "打开",
+          "example_en": "Open it.",
+          "example_cn": "打开它。",
+          "hint": "首字母 o"
+        },
+        {
+          "id": "d5_036",
+          "word": "idea",
+          "ipa": "/aɪˈdiə/",
+          "pos": "mix",
+          "meaning_cn": "主意",
+          "example_en": "Good idea.",
+          "example_cn": "好主意。",
+          "hint": "首字母 i"
+        },
+        {
+          "id": "d5_037",
+          "word": "juice",
+          "ipa": "/dʒus/",
+          "pos": "mix",
+          "meaning_cn": "果汁",
+          "example_en": "Orange juice.",
+          "example_cn": "橙汁。",
+          "hint": "首字母 j"
+        },
+        {
+          "id": "d5_038",
+          "word": "apple",
+          "ipa": "/ˈæpəl/",
+          "pos": "mix",
+          "meaning_cn": "苹果",
+          "example_en": "I eat an apple.",
+          "example_cn": "我吃了一个苹果。",
+          "hint": "首字母 a"
+        },
+        {
+          "id": "d5_039",
+          "word": "book",
+          "ipa": "/bʊk/",
+          "pos": "mix",
+          "meaning_cn": "书",
+          "example_en": "Read a book.",
+          "example_cn": "读一本书。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d5_040",
+          "word": "easy",
+          "ipa": "/ˈizi/",
+          "pos": "mix",
+          "meaning_cn": "容易的",
+          "example_en": "It is easy.",
+          "example_cn": "这很容易。",
+          "hint": "首字母 e"
+        },
+        {
+          "id": "d5_041",
+          "word": "or",
+          "ipa": "/ɔr/",
+          "pos": "mix",
+          "meaning_cn": "或者",
+          "example_en": "Tea or coffee?",
+          "example_cn": "茶还是咖啡？",
+          "hint": "首字母 o"
+        },
+        {
+          "id": "d5_042",
+          "word": "voice",
+          "ipa": "/vɔɪs/",
+          "pos": "mix",
+          "meaning_cn": "声音",
+          "example_en": "Loud voice.",
+          "example_cn": "大声。",
+          "hint": "首字母 v"
+        },
+        {
+          "id": "d5_043",
+          "word": "before",
+          "ipa": "/bɪˈfɔr/",
+          "pos": "mix",
+          "meaning_cn": "在之前",
+          "example_en": "Before lunch.",
+          "example_cn": "午饭前。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d5_044",
+          "word": "early",
+          "ipa": "/ˈɜrli/",
+          "pos": "mix",
+          "meaning_cn": "早的",
+          "example_en": "Wake up early.",
+          "example_cn": "早起。",
+          "hint": "首字母 e"
+        },
+        {
+          "id": "d5_045",
+          "word": "open",
+          "ipa": "/ˈoʊpən/",
+          "pos": "mix",
+          "meaning_cn": "开着的",
+          "example_en": "Open door.",
+          "example_cn": "开着的门。",
+          "hint": "首字母 o"
+        },
+        {
+          "id": "d5_046",
+          "word": "big",
+          "ipa": "/bɪɡ/",
+          "pos": "mix",
+          "meaning_cn": "大的",
+          "example_en": "A big house.",
+          "example_cn": "大房子。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d5_047",
+          "word": "pay",
+          "ipa": "/peɪ/",
+          "pos": "mix",
+          "meaning_cn": "支付",
+          "example_en": "Pay money.",
+          "example_cn": "付钱。",
+          "hint": "首字母 p"
+        },
+        {
+          "id": "d5_048",
+          "word": "dry",
+          "ipa": "/draɪ/",
+          "pos": "mix",
+          "meaning_cn": "干的",
+          "example_en": "Dry clothes.",
+          "example_cn": "干衣服。",
+          "hint": "首字母 d"
+        },
+        {
+          "id": "d5_049",
+          "word": "if",
+          "ipa": "/ɪf/",
+          "pos": "mix",
+          "meaning_cn": "如果",
+          "example_en": "If you can.",
+          "example_cn": "如果你能。",
+          "hint": "首字母 i"
+        },
+        {
+          "id": "d5_050",
+          "word": "on",
+          "ipa": "/ɑn/",
+          "pos": "mix",
+          "meaning_cn": "在上面",
+          "example_en": "On the table.",
+          "example_cn": "在桌上。",
+          "hint": "首字母 o"
+        }
+      ],
+      "homework": {
+        "title": "今日小作业",
+        "description": "写一句你在工作或学习中常说的话。",
+        "placeholder": "例如：I have a meeting."
+      },
+      "review_questions": [
+        "student 和 teacher 的关系是什么？",
+        "office 是什么地方？",
+        "如何用英语请假？"
+      ],
+      "common_errors": []
+    },
+    {
+      "day": 6,
+      "title": "情绪观点表达",
+      "goals": [
+        "掌握表达情绪和观点的词汇",
+        "学会表达同意或反对",
+        "理解常用情感形容词"
+      ],
+      "methods": [
+        {
+          "title": "表情包法",
+          "content": "给不同的表情包配上对应的英文单词（如 happy, sad, angry）。"
+        },
+        {
+          "title": "日记法",
+          "content": "用简单的英文记录今天的心情。"
+        },
+        {
+          "title": "辩论模拟",
+          "content": "尝试用简单的英语表达对某件事的看法。"
+        }
+      ],
+      "words": [
+        {
+          "id": "d6_001",
+          "word": "cry",
+          "ipa": "/kraɪ/",
+          "pos": "mix",
+          "meaning_cn": "哭",
+          "example_en": "Don't cry.",
+          "example_cn": "别哭。",
+          "hint": "首字母 c"
+        },
+        {
+          "id": "d6_002",
+          "word": "umbrella",
+          "ipa": "/ʌmˈbrɛlə/",
+          "pos": "mix",
+          "meaning_cn": "雨伞",
+          "example_en": "Take an umbrella.",
+          "example_cn": "带把伞。",
+          "hint": "首字母 u"
+        },
+        {
+          "id": "d6_003",
+          "word": "zoom",
+          "ipa": "/zum/",
+          "pos": "mix",
+          "meaning_cn": "急速移动",
+          "example_en": "Zoom in.",
+          "example_cn": "放大。",
+          "hint": "首字母 z"
+        },
+        {
+          "id": "d6_004",
+          "word": "that",
+          "ipa": "/ðæt/",
+          "pos": "mix",
+          "meaning_cn": "那个",
+          "example_en": "That one.",
+          "example_cn": "那个。",
+          "hint": "首字母 t"
+        },
+        {
+          "id": "d6_005",
+          "word": "sad",
+          "ipa": "/sæd/",
+          "pos": "mix",
+          "meaning_cn": "伤心的",
+          "example_en": "Don't be sad.",
+          "example_cn": "别伤心。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d6_006",
+          "word": "job",
+          "ipa": "/dʒɑb/",
+          "pos": "mix",
+          "meaning_cn": "工作",
+          "example_en": "Good job.",
+          "example_cn": "干得好。",
+          "hint": "首字母 j"
+        },
+        {
+          "id": "d6_007",
+          "word": "apple",
+          "ipa": "/ˈæpəl/",
+          "pos": "mix",
+          "meaning_cn": "苹果",
+          "example_en": "I eat an apple.",
+          "example_cn": "我吃了一个苹果。",
+          "hint": "首字母 a"
+        },
+        {
+          "id": "d6_008",
+          "word": "nose",
+          "ipa": "/noʊz/",
+          "pos": "mix",
+          "meaning_cn": "鼻子",
+          "example_en": "Touch your nose.",
+          "example_cn": "摸摸鼻子。",
+          "hint": "首字母 n"
+        },
+        {
+          "id": "d6_009",
+          "word": "very",
+          "ipa": "/ˈvɛri/",
+          "pos": "mix",
+          "meaning_cn": "非常",
+          "example_en": "Very good.",
+          "example_cn": "非常好。",
+          "hint": "首字母 v"
+        },
+        {
+          "id": "d6_010",
+          "word": "up",
+          "ipa": "/ʌp/",
+          "pos": "mix",
+          "meaning_cn": "向上",
+          "example_en": "Look up.",
+          "example_cn": "向上看。",
+          "hint": "首字母 u"
+        },
+        {
+          "id": "d6_011",
+          "word": "walk",
+          "ipa": "/wɔk/",
+          "pos": "mix",
+          "meaning_cn": "走",
+          "example_en": "Walk away.",
+          "example_cn": "走开。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d6_012",
+          "word": "before",
+          "ipa": "/bɪˈfɔr/",
+          "pos": "mix",
+          "meaning_cn": "在之前",
+          "example_en": "Before lunch.",
+          "example_cn": "午饭前。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d6_013",
+          "word": "strong",
+          "ipa": "/strɔŋ/",
+          "pos": "mix",
+          "meaning_cn": "强壮的",
+          "example_en": "Strong man.",
+          "example_cn": "强壮的人。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d6_014",
+          "word": "ready",
+          "ipa": "/ˈrɛdi/",
+          "pos": "mix",
+          "meaning_cn": "准备好的",
+          "example_en": "Are you ready?",
+          "example_cn": "准备好了吗？",
+          "hint": "首字母 r"
+        },
+        {
+          "id": "d6_015",
+          "word": "fish",
+          "ipa": "/fɪʃ/",
+          "pos": "mix",
+          "meaning_cn": "鱼",
+          "example_en": "Fish swim in water.",
+          "example_cn": "鱼在水里游。",
+          "hint": "首字母 f"
+        },
+        {
+          "id": "d6_016",
+          "word": "warm",
+          "ipa": "/wɔrm/",
+          "pos": "mix",
+          "meaning_cn": "温暖的",
+          "example_en": "Warm day.",
+          "example_cn": "温暖的一天。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d6_017",
+          "word": "add",
+          "ipa": "/æd/",
+          "pos": "mix",
+          "meaning_cn": "增加",
+          "example_en": "Add sugar.",
+          "example_cn": "加糖。",
+          "hint": "首字母 a"
+        },
+        {
+          "id": "d6_018",
+          "word": "big",
+          "ipa": "/bɪɡ/",
+          "pos": "mix",
+          "meaning_cn": "大的",
+          "example_en": "A big house.",
+          "example_cn": "大房子。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d6_019",
+          "word": "fly",
+          "ipa": "/flaɪ/",
+          "pos": "mix",
+          "meaning_cn": "飞",
+          "example_en": "Birds fly.",
+          "example_cn": "鸟飞。",
+          "hint": "首字母 f"
+        },
+        {
+          "id": "d6_020",
+          "word": "nod",
+          "ipa": "/nɑd/",
+          "pos": "mix",
+          "meaning_cn": "点头",
+          "example_en": "Nod head.",
+          "example_cn": "点头。",
+          "hint": "首字母 n"
+        },
+        {
+          "id": "d6_021",
+          "word": "pay",
+          "ipa": "/peɪ/",
+          "pos": "mix",
+          "meaning_cn": "支付",
+          "example_en": "Pay money.",
+          "example_cn": "付钱。",
+          "hint": "首字母 p"
+        },
+        {
+          "id": "d6_022",
+          "word": "and",
+          "ipa": "/ænd/",
+          "pos": "mix",
+          "meaning_cn": "和",
+          "example_en": "You and me.",
+          "example_cn": "你和我。",
+          "hint": "首字母 a"
+        },
+        {
+          "id": "d6_023",
+          "word": "zoo",
+          "ipa": "/zu/",
+          "pos": "mix",
+          "meaning_cn": "动物园",
+          "example_en": "Go to the zoo.",
+          "example_cn": "去动物园。",
+          "hint": "首字母 z"
+        },
+        {
+          "id": "d6_024",
+          "word": "food",
+          "ipa": "/fud/",
+          "pos": "mix",
+          "meaning_cn": "食物",
+          "example_en": "Good food.",
+          "example_cn": "好吃的食物。",
+          "hint": "首字母 f"
+        },
+        {
+          "id": "d6_025",
+          "word": "win",
+          "ipa": "/wɪn/",
+          "pos": "mix",
+          "meaning_cn": "赢",
+          "example_en": "Win game.",
+          "example_cn": "赢比赛。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d6_026",
+          "word": "sit",
+          "ipa": "/sɪt/",
+          "pos": "mix",
+          "meaning_cn": "坐",
+          "example_en": "Sit down.",
+          "example_cn": "坐下。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d6_027",
+          "word": "tall",
+          "ipa": "/tɔl/",
+          "pos": "mix",
+          "meaning_cn": "高的",
+          "example_en": "Tall tree.",
+          "example_cn": "高树。",
+          "hint": "首字母 t"
+        },
+        {
+          "id": "d6_028",
+          "word": "more",
+          "ipa": "/mɔr/",
+          "pos": "mix",
+          "meaning_cn": "更多",
+          "example_en": "More water.",
+          "example_cn": "更多水。",
+          "hint": "首字母 m"
+        },
+        {
+          "id": "d6_029",
+          "word": "here",
+          "ipa": "/hɪr/",
+          "pos": "mix",
+          "meaning_cn": "这里",
+          "example_en": "Come here.",
+          "example_cn": "来这里。",
+          "hint": "首字母 h"
+        },
+        {
+          "id": "d6_030",
+          "word": "water",
+          "ipa": "/ˈwɔtər/",
+          "pos": "mix",
+          "meaning_cn": "水",
+          "example_en": "Drink some water.",
+          "example_cn": "喝点水。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d6_031",
+          "word": "jump",
+          "ipa": "/dʒʌmp/",
+          "pos": "mix",
+          "meaning_cn": "跳",
+          "example_en": "Jump high.",
+          "example_cn": "跳得高。",
+          "hint": "首字母 j"
+        },
+        {
+          "id": "d6_032",
+          "word": "wrong",
+          "ipa": "/rɔŋ/",
+          "pos": "mix",
+          "meaning_cn": "错的",
+          "example_en": "Wrong way.",
+          "example_cn": "错路。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d6_033",
+          "word": "box",
+          "ipa": "/bɑks/",
+          "pos": "mix",
+          "meaning_cn": "盒子",
+          "example_en": "Open the box.",
+          "example_cn": "打开盒子。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d6_034",
+          "word": "soft",
+          "ipa": "/sɔft/",
+          "pos": "mix",
+          "meaning_cn": "软的",
+          "example_en": "Soft bed.",
+          "example_cn": "软床。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d6_035",
+          "word": "eat",
+          "ipa": "/it/",
+          "pos": "mix",
+          "meaning_cn": "吃",
+          "example_en": "Eat apple.",
+          "example_cn": "吃苹果。",
+          "hint": "首字母 e"
+        },
+        {
+          "id": "d6_036",
+          "word": "quiet",
+          "ipa": "/ˈkwaɪət/",
+          "pos": "mix",
+          "meaning_cn": "安静的",
+          "example_en": "Be quiet.",
+          "example_cn": "安静。",
+          "hint": "首字母 q"
+        },
+        {
+          "id": "d6_037",
+          "word": "open",
+          "ipa": "/ˈoʊpən/",
+          "pos": "mix",
+          "meaning_cn": "打开",
+          "example_en": "Open it.",
+          "example_cn": "打开它。",
+          "hint": "首字母 o"
+        },
+        {
+          "id": "d6_038",
+          "word": "with",
+          "ipa": "/wɪð/",
+          "pos": "mix",
+          "meaning_cn": "和",
+          "example_en": "With me.",
+          "example_cn": "和我一起。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d6_039",
+          "word": "of",
+          "ipa": "/ʌv/",
+          "pos": "mix",
+          "meaning_cn": "的",
+          "example_en": "Cup of tea.",
+          "example_cn": "一杯茶。",
+          "hint": "首字母 o"
+        },
+        {
+          "id": "d6_040",
+          "word": "early",
+          "ipa": "/ˈɜrli/",
+          "pos": "mix",
+          "meaning_cn": "早的",
+          "example_en": "Wake up early.",
+          "example_cn": "早起。",
+          "hint": "首字母 e"
+        },
+        {
+          "id": "d6_041",
+          "word": "what",
+          "ipa": "/wʌt/",
+          "pos": "mix",
+          "meaning_cn": "什么",
+          "example_en": "What is this?",
+          "example_cn": "这是什么？",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d6_042",
+          "word": "love",
+          "ipa": "/lʌv/",
+          "pos": "mix",
+          "meaning_cn": "爱",
+          "example_en": "I love you.",
+          "example_cn": "我爱你。",
+          "hint": "首字母 l"
+        },
+        {
+          "id": "d6_043",
+          "word": "just",
+          "ipa": "/dʒʌst/",
+          "pos": "mix",
+          "meaning_cn": "仅仅",
+          "example_en": "Just one.",
+          "example_cn": "只要一个。",
+          "hint": "首字母 j"
+        },
+        {
+          "id": "d6_044",
+          "word": "cold",
+          "ipa": "/koʊld/",
+          "pos": "mix",
+          "meaning_cn": "冷的",
+          "example_en": "Cold water.",
+          "example_cn": "冷水。",
+          "hint": "首字母 c"
+        },
+        {
+          "id": "d6_045",
+          "word": "yes",
+          "ipa": "/jɛs/",
+          "pos": "mix",
+          "meaning_cn": "是",
+          "example_en": "Yes, I do.",
+          "example_cn": "是的，我愿意。",
+          "hint": "首字母 y"
+        },
+        {
+          "id": "d6_046",
+          "word": "well",
+          "ipa": "/wɛl/",
+          "pos": "mix",
+          "meaning_cn": "好",
+          "example_en": "Well done.",
+          "example_cn": "做得好。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d6_047",
+          "word": "for",
+          "ipa": "/fɔr/",
+          "pos": "mix",
+          "meaning_cn": "为了",
+          "example_en": "For you.",
+          "example_cn": "为了你。",
+          "hint": "首字母 f"
+        },
+        {
+          "id": "d6_048",
+          "word": "get",
+          "ipa": "/ɡɛt/",
+          "pos": "mix",
+          "meaning_cn": "得到",
+          "example_en": "Get money.",
+          "example_cn": "拿到钱。",
+          "hint": "首字母 g"
+        },
+        {
+          "id": "d6_049",
+          "word": "dry",
+          "ipa": "/draɪ/",
+          "pos": "mix",
+          "meaning_cn": "弄干",
+          "example_en": "Dry hair.",
+          "example_cn": "弄干头发。",
+          "hint": "首字母 d"
+        },
+        {
+          "id": "d6_050",
+          "word": "die",
+          "ipa": "/daɪ/",
+          "pos": "mix",
+          "meaning_cn": "死",
+          "example_en": "Flowers die.",
+          "example_cn": "花谢了。",
+          "hint": "首字母 d"
+        }
+      ],
+      "homework": {
+        "title": "今日小作业",
+        "description": "用一个词形容你今天的心情，并说明原因。",
+        "placeholder": "例如：I am happy because it is Friday."
+      },
+      "review_questions": [
+        "happy 的反义词是什么？",
+        "如何礼貌地表示不同意？",
+        "你能说出3个表示积极情绪的词吗？"
+      ],
+      "common_errors": []
+    },
+    {
+      "day": 7,
+      "title": "逻辑连接词阅读常见词",
+      "goals": [
+        "掌握常用逻辑连接词",
+        "提高阅读理解能力",
+        "学会梳理文章脉络"
+      ],
+      "methods": [
+        {
+          "title": "逻辑树",
+          "content": "画出因果、转折、并列等逻辑关系图。"
+        },
+        {
+          "title": "阅读寻找",
+          "content": "在一段英文中圈出所有的连接词。"
+        },
+        {
+          "title": "造句练习",
+          "content": "用 because, but, so 等词造句。"
+        }
+      ],
+      "words": [
+        {
+          "id": "d7_001",
+          "word": "small",
+          "ipa": "/smɔl/",
+          "pos": "mix",
+          "meaning_cn": "小的",
+          "example_en": "Small box.",
+          "example_cn": "小盒子。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d7_002",
+          "word": "park",
+          "ipa": "/pɑrk/",
+          "pos": "mix",
+          "meaning_cn": "公园",
+          "example_en": "Walk in the park.",
+          "example_cn": "在公园散步。",
+          "hint": "首字母 p"
+        },
+        {
+          "id": "d7_003",
+          "word": "buy",
+          "ipa": "/baɪ/",
+          "pos": "mix",
+          "meaning_cn": "买",
+          "example_en": "Buy food.",
+          "example_cn": "买食物。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d7_004",
+          "word": "yes",
+          "ipa": "/jɛs/",
+          "pos": "mix",
+          "meaning_cn": "是",
+          "example_en": "Yes, I do.",
+          "example_cn": "是的，我愿意。",
+          "hint": "首字母 y"
+        },
+        {
+          "id": "d7_005",
+          "word": "money",
+          "ipa": "/ˈmʌni/",
+          "pos": "mix",
+          "meaning_cn": "钱",
+          "example_en": "Time is money.",
+          "example_cn": "时间就是金钱。",
+          "hint": "首字母 m"
+        },
+        {
+          "id": "d7_006",
+          "word": "sun",
+          "ipa": "/sʌn/",
+          "pos": "mix",
+          "meaning_cn": "太阳",
+          "example_en": "The sun is hot.",
+          "example_cn": "太阳很热。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d7_007",
+          "word": "nod",
+          "ipa": "/nɑd/",
+          "pos": "mix",
+          "meaning_cn": "点头",
+          "example_en": "Nod head.",
+          "example_cn": "点头。",
+          "hint": "首字母 n"
+        },
+        {
+          "id": "d7_008",
+          "word": "zoo",
+          "ipa": "/zu/",
+          "pos": "mix",
+          "meaning_cn": "动物园",
+          "example_en": "Go to the zoo.",
+          "example_cn": "去动物园。",
+          "hint": "首字母 z"
+        },
+        {
+          "id": "d7_009",
+          "word": "rich",
+          "ipa": "/rɪtʃ/",
+          "pos": "mix",
+          "meaning_cn": "富有的",
+          "example_en": "Rich man.",
+          "example_cn": "富人。",
+          "hint": "首字母 r"
+        },
+        {
+          "id": "d7_010",
+          "word": "hug",
+          "ipa": "/hʌɡ/",
+          "pos": "mix",
+          "meaning_cn": "拥抱",
+          "example_en": "Hug me.",
+          "example_cn": "抱抱我。",
+          "hint": "首字母 h"
+        },
+        {
+          "id": "d7_011",
+          "word": "orange",
+          "ipa": "/ˈɔrɪndʒ/",
+          "pos": "mix",
+          "meaning_cn": "橙子",
+          "example_en": "An orange is round.",
+          "example_cn": "橙子是圆的。",
+          "hint": "首字母 o"
+        },
+        {
+          "id": "d7_012",
+          "word": "end",
+          "ipa": "/ɛnd/",
+          "pos": "mix",
+          "meaning_cn": "结束",
+          "example_en": "End story.",
+          "example_cn": "结束故事。",
+          "hint": "首字母 e"
+        },
+        {
+          "id": "d7_013",
+          "word": "fast",
+          "ipa": "/fæst/",
+          "pos": "mix",
+          "meaning_cn": "快的",
+          "example_en": "Run fast.",
+          "example_cn": "跑得快。",
+          "hint": "首字母 f"
+        },
+        {
+          "id": "d7_014",
+          "word": "job",
+          "ipa": "/dʒɑb/",
+          "pos": "mix",
+          "meaning_cn": "工作",
+          "example_en": "Good job.",
+          "example_cn": "干得好。",
+          "hint": "首字母 j"
+        },
+        {
+          "id": "d7_015",
+          "word": "water",
+          "ipa": "/ˈwɔtər/",
+          "pos": "mix",
+          "meaning_cn": "水",
+          "example_en": "Drink some water.",
+          "example_cn": "喝点水。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d7_016",
+          "word": "move",
+          "ipa": "/muv/",
+          "pos": "mix",
+          "meaning_cn": "移动",
+          "example_en": "Move it.",
+          "example_cn": "移动它。",
+          "hint": "首字母 m"
+        },
+        {
+          "id": "d7_017",
+          "word": "help",
+          "ipa": "/hɛlp/",
+          "pos": "mix",
+          "meaning_cn": "帮助",
+          "example_en": "Help me.",
+          "example_cn": "帮帮我。",
+          "hint": "首字母 h"
+        },
+        {
+          "id": "d7_018",
+          "word": "rain",
+          "ipa": "/reɪn/",
+          "pos": "mix",
+          "meaning_cn": "雨",
+          "example_en": "It is raining.",
+          "example_cn": "下雨了。",
+          "hint": "首字母 r"
+        },
+        {
+          "id": "d7_019",
+          "word": "new",
+          "ipa": "/nu/",
+          "pos": "mix",
+          "meaning_cn": "新的",
+          "example_en": "New car.",
+          "example_cn": "新车。",
+          "hint": "首字母 n"
+        },
+        {
+          "id": "d7_020",
+          "word": "box",
+          "ipa": "/bɑks/",
+          "pos": "mix",
+          "meaning_cn": "盒子",
+          "example_en": "Open the box.",
+          "example_cn": "打开盒子。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d7_021",
+          "word": "sit",
+          "ipa": "/sɪt/",
+          "pos": "mix",
+          "meaning_cn": "坐",
+          "example_en": "Sit down.",
+          "example_cn": "坐下。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d7_022",
+          "word": "jump",
+          "ipa": "/dʒʌmp/",
+          "pos": "mix",
+          "meaning_cn": "跳",
+          "example_en": "Jump high.",
+          "example_cn": "跳得高。",
+          "hint": "首字母 j"
+        },
+        {
+          "id": "d7_023",
+          "word": "pen",
+          "ipa": "/pɛn/",
+          "pos": "mix",
+          "meaning_cn": "钢笔",
+          "example_en": "I have a pen.",
+          "example_cn": "我有一支钢笔。",
+          "hint": "首字母 p"
+        },
+        {
+          "id": "d7_024",
+          "word": "win",
+          "ipa": "/wɪn/",
+          "pos": "mix",
+          "meaning_cn": "赢",
+          "example_en": "Win game.",
+          "example_cn": "赢比赛。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d7_025",
+          "word": "head",
+          "ipa": "/hɛd/",
+          "pos": "mix",
+          "meaning_cn": "头",
+          "example_en": "Nod your head.",
+          "example_cn": "点头。",
+          "hint": "首字母 h"
+        },
+        {
+          "id": "d7_026",
+          "word": "ill",
+          "ipa": "/ɪl/",
+          "pos": "mix",
+          "meaning_cn": "生病的",
+          "example_en": "He is ill.",
+          "example_cn": "他病了。",
+          "hint": "首字母 i"
+        },
+        {
+          "id": "d7_027",
+          "word": "how",
+          "ipa": "/haʊ/",
+          "pos": "mix",
+          "meaning_cn": "如何",
+          "example_en": "How are you?",
+          "example_cn": "你好吗？",
+          "hint": "首字母 h"
+        },
+        {
+          "id": "d7_028",
+          "word": "why",
+          "ipa": "/waɪ/",
+          "pos": "mix",
+          "meaning_cn": "为什么",
+          "example_en": "Why not?",
+          "example_cn": "为什么不？",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d7_029",
+          "word": "just",
+          "ipa": "/dʒʌst/",
+          "pos": "mix",
+          "meaning_cn": "仅仅",
+          "example_en": "Just one.",
+          "example_cn": "只要一个。",
+          "hint": "首字母 j"
+        },
+        {
+          "id": "d7_030",
+          "word": "with",
+          "ipa": "/wɪð/",
+          "pos": "mix",
+          "meaning_cn": "和",
+          "example_en": "With me.",
+          "example_cn": "和我一起。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d7_031",
+          "word": "dry",
+          "ipa": "/draɪ/",
+          "pos": "mix",
+          "meaning_cn": "弄干",
+          "example_en": "Dry hair.",
+          "example_cn": "弄干头发。",
+          "hint": "首字母 d"
+        },
+        {
+          "id": "d7_032",
+          "word": "so",
+          "ipa": "/soʊ/",
+          "pos": "mix",
+          "meaning_cn": "所以/如此",
+          "example_en": "So happy.",
+          "example_cn": "如此快乐。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d7_033",
+          "word": "well",
+          "ipa": "/wɛl/",
+          "pos": "mix",
+          "meaning_cn": "好",
+          "example_en": "Well done.",
+          "example_cn": "做得好。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d7_034",
+          "word": "that",
+          "ipa": "/ðæt/",
+          "pos": "mix",
+          "meaning_cn": "那个",
+          "example_en": "That one.",
+          "example_cn": "那个。",
+          "hint": "首字母 t"
+        },
+        {
+          "id": "d7_035",
+          "word": "hot",
+          "ipa": "/hɑt/",
+          "pos": "mix",
+          "meaning_cn": "热的",
+          "example_en": "Hot tea.",
+          "example_cn": "热茶。",
+          "hint": "首字母 h"
+        },
+        {
+          "id": "d7_036",
+          "word": "love",
+          "ipa": "/lʌv/",
+          "pos": "mix",
+          "meaning_cn": "爱",
+          "example_en": "I love you.",
+          "example_cn": "我爱你。",
+          "hint": "首字母 l"
+        },
+        {
+          "id": "d7_037",
+          "word": "try",
+          "ipa": "/traɪ/",
+          "pos": "mix",
+          "meaning_cn": "尝试",
+          "example_en": "Try again.",
+          "example_cn": "再试一次。",
+          "hint": "首字母 t"
+        },
+        {
+          "id": "d7_038",
+          "word": "kite",
+          "ipa": "/kaɪt/",
+          "pos": "mix",
+          "meaning_cn": "风筝",
+          "example_en": "Fly a kite.",
+          "example_cn": "放风筝。",
+          "hint": "首字母 k"
+        },
+        {
+          "id": "d7_039",
+          "word": "early",
+          "ipa": "/ˈɜrli/",
+          "pos": "mix",
+          "meaning_cn": "早的",
+          "example_en": "Wake up early.",
+          "example_cn": "早起。",
+          "hint": "首字母 e"
+        },
+        {
+          "id": "d7_040",
+          "word": "about",
+          "ipa": "/əˈbaʊt/",
+          "pos": "mix",
+          "meaning_cn": "关于",
+          "example_en": "About you.",
+          "example_cn": "关于你。",
+          "hint": "首字母 a"
+        },
+        {
+          "id": "d7_041",
+          "word": "milk",
+          "ipa": "/mɪlk/",
+          "pos": "mix",
+          "meaning_cn": "牛奶",
+          "example_en": "Drink milk.",
+          "example_cn": "喝牛奶。",
+          "hint": "首字母 m"
+        },
+        {
+          "id": "d7_042",
+          "word": "pay",
+          "ipa": "/peɪ/",
+          "pos": "mix",
+          "meaning_cn": "支付",
+          "example_en": "Pay money.",
+          "example_cn": "付钱。",
+          "hint": "首字母 p"
+        },
+        {
+          "id": "d7_043",
+          "word": "hand",
+          "ipa": "/hænd/",
+          "pos": "mix",
+          "meaning_cn": "手",
+          "example_en": "Wash your hands.",
+          "example_cn": "洗手。",
+          "hint": "首字母 h"
+        },
+        {
+          "id": "d7_044",
+          "word": "cry",
+          "ipa": "/kraɪ/",
+          "pos": "mix",
+          "meaning_cn": "哭",
+          "example_en": "Don't cry.",
+          "example_cn": "别哭。",
+          "hint": "首字母 c"
+        },
+        {
+          "id": "d7_045",
+          "word": "late",
+          "ipa": "/leɪt/",
+          "pos": "mix",
+          "meaning_cn": "晚的",
+          "example_en": "Don't be late.",
+          "example_cn": "别迟到。",
+          "hint": "首字母 l"
+        },
+        {
+          "id": "d7_046",
+          "word": "vote",
+          "ipa": "/voʊt/",
+          "pos": "mix",
+          "meaning_cn": "投票",
+          "example_en": "Vote for him.",
+          "example_cn": "投他一票。",
+          "hint": "首字母 v"
+        },
+        {
+          "id": "d7_047",
+          "word": "bird",
+          "ipa": "/bɜrd/",
+          "pos": "mix",
+          "meaning_cn": "鸟",
+          "example_en": "A bird flies.",
+          "example_cn": "鸟在飞。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d7_048",
+          "word": "car",
+          "ipa": "/kɑr/",
+          "pos": "mix",
+          "meaning_cn": "车",
+          "example_en": "Drive a car.",
+          "example_cn": "开车。",
+          "hint": "首字母 c"
+        },
+        {
+          "id": "d7_049",
+          "word": "fry",
+          "ipa": "/fraɪ/",
+          "pos": "mix",
+          "meaning_cn": "油炸",
+          "example_en": "Fry egg.",
+          "example_cn": "煎蛋。",
+          "hint": "首字母 f"
+        },
+        {
+          "id": "d7_050",
+          "word": "here",
+          "ipa": "/hɪr/",
+          "pos": "mix",
+          "meaning_cn": "这里",
+          "example_en": "Come here.",
+          "example_cn": "来这里。",
+          "hint": "首字母 h"
+        }
+      ],
+      "homework": {
+        "title": "今日小作业",
+        "description": "用 first, then, finally 描述一个过程。",
+        "placeholder": "例如：First wash hands, then eat."
+      },
+      "review_questions": [
+        "but 和 however 有什么区别？",
+        "because 后面接什么？",
+        "and 可以连接哪些成分？"
+      ],
+      "common_errors": []
+    },
+    {
+      "day": 8,
+      "title": "易混淆词对比 + 高频词",
+      "goals": [
+        "区分常见易混淆词",
+        "巩固高频词汇",
+        "提高用词准确性"
+      ],
+      "methods": [
+        {
+          "title": "对比列表",
+          "content": "列出易混词，对比其拼写、发音和用法。"
+        },
+        {
+          "title": "填空练习",
+          "content": "做选词填空题，专门针对易混词。"
+        },
+        {
+          "title": "纠错练习",
+          "content": "找出句子中的用词错误并改正。"
+        }
+      ],
+      "words": [
+        {
+          "id": "d8_001",
+          "word": "kind",
+          "ipa": "/kaɪnd/",
+          "pos": "mix",
+          "meaning_cn": "友好的",
+          "example_en": "Be kind.",
+          "example_cn": "友善点。",
+          "hint": "首字母 k"
+        },
+        {
+          "id": "d8_002",
+          "word": "safe",
+          "ipa": "/seɪf/",
+          "pos": "mix",
+          "meaning_cn": "安全的",
+          "example_en": "Safe trip.",
+          "example_cn": "安全旅途。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d8_003",
+          "word": "weak",
+          "ipa": "/wik/",
+          "pos": "mix",
+          "meaning_cn": "虚弱的",
+          "example_en": "Weak body.",
+          "example_cn": "虚弱的身体。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d8_004",
+          "word": "idea",
+          "ipa": "/aɪˈdiə/",
+          "pos": "mix",
+          "meaning_cn": "主意",
+          "example_en": "Good idea.",
+          "example_cn": "好主意。",
+          "hint": "首字母 i"
+        },
+        {
+          "id": "d8_005",
+          "word": "food",
+          "ipa": "/fud/",
+          "pos": "mix",
+          "meaning_cn": "食物",
+          "example_en": "Good food.",
+          "example_cn": "好吃的食物。",
+          "hint": "首字母 f"
+        },
+        {
+          "id": "d8_006",
+          "word": "at",
+          "ipa": "/æt/",
+          "pos": "mix",
+          "meaning_cn": "在",
+          "example_en": "At home.",
+          "example_cn": "在家。",
+          "hint": "首字母 a"
+        },
+        {
+          "id": "d8_007",
+          "word": "love",
+          "ipa": "/lʌv/",
+          "pos": "mix",
+          "meaning_cn": "爱",
+          "example_en": "I love you.",
+          "example_cn": "我爱你。",
+          "hint": "首字母 l"
+        },
+        {
+          "id": "d8_008",
+          "word": "van",
+          "ipa": "/væn/",
+          "pos": "mix",
+          "meaning_cn": "货车",
+          "example_en": "A white van.",
+          "example_cn": "一辆白色货车。",
+          "hint": "首字母 v"
+        },
+        {
+          "id": "d8_009",
+          "word": "leg",
+          "ipa": "/lɛɡ/",
+          "pos": "mix",
+          "meaning_cn": "腿",
+          "example_en": "My leg hurts.",
+          "example_cn": "我的腿疼。",
+          "hint": "首字母 l"
+        },
+        {
+          "id": "d8_010",
+          "word": "poor",
+          "ipa": "/pʊr/",
+          "pos": "mix",
+          "meaning_cn": "穷的",
+          "example_en": "Poor guy.",
+          "example_cn": "可怜的家伙。",
+          "hint": "首字母 p"
+        },
+        {
+          "id": "d8_011",
+          "word": "end",
+          "ipa": "/ɛnd/",
+          "pos": "mix",
+          "meaning_cn": "结束",
+          "example_en": "End story.",
+          "example_cn": "结束故事。",
+          "hint": "首字母 e"
+        },
+        {
+          "id": "d8_012",
+          "word": "easy",
+          "ipa": "/ˈizi/",
+          "pos": "mix",
+          "meaning_cn": "容易的",
+          "example_en": "It is easy.",
+          "example_cn": "这很容易。",
+          "hint": "首字母 e"
+        },
+        {
+          "id": "d8_013",
+          "word": "call",
+          "ipa": "/kɔl/",
+          "pos": "mix",
+          "meaning_cn": "打电话",
+          "example_en": "Call me.",
+          "example_cn": "给我打电话。",
+          "hint": "首字母 c"
+        },
+        {
+          "id": "d8_014",
+          "word": "when",
+          "ipa": "/wɛn/",
+          "pos": "mix",
+          "meaning_cn": "什么时候",
+          "example_en": "When to go?",
+          "example_cn": "什么时候去？",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d8_015",
+          "word": "home",
+          "ipa": "/hoʊm/",
+          "pos": "mix",
+          "meaning_cn": "家",
+          "example_en": "Go home.",
+          "example_cn": "回家。",
+          "hint": "首字母 h"
+        },
+        {
+          "id": "d8_016",
+          "word": "talk",
+          "ipa": "/tɔk/",
+          "pos": "mix",
+          "meaning_cn": "谈话",
+          "example_en": "Talk to me.",
+          "example_cn": "跟我说话。",
+          "hint": "首字母 t"
+        },
+        {
+          "id": "d8_017",
+          "word": "zoom",
+          "ipa": "/zum/",
+          "pos": "mix",
+          "meaning_cn": "急速移动",
+          "example_en": "Zoom in.",
+          "example_cn": "放大。",
+          "hint": "首字母 z"
+        },
+        {
+          "id": "d8_018",
+          "word": "say",
+          "ipa": "/seɪ/",
+          "pos": "mix",
+          "meaning_cn": "说",
+          "example_en": "Say yes.",
+          "example_cn": "说是。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d8_019",
+          "word": "high",
+          "ipa": "/haɪ/",
+          "pos": "mix",
+          "meaning_cn": "高的",
+          "example_en": "High mountain.",
+          "example_cn": "高山。",
+          "hint": "首字母 h"
+        },
+        {
+          "id": "d8_020",
+          "word": "beg",
+          "ipa": "/bɛɡ/",
+          "pos": "mix",
+          "meaning_cn": "乞求",
+          "example_en": "I beg you.",
+          "example_cn": "我求你。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d8_021",
+          "word": "cry",
+          "ipa": "/kraɪ/",
+          "pos": "mix",
+          "meaning_cn": "哭",
+          "example_en": "Don't cry.",
+          "example_cn": "别哭。",
+          "hint": "首字母 c"
+        },
+        {
+          "id": "d8_022",
+          "word": "that",
+          "ipa": "/ðæt/",
+          "pos": "mix",
+          "meaning_cn": "那个",
+          "example_en": "That one.",
+          "example_cn": "那个。",
+          "hint": "首字母 t"
+        },
+        {
+          "id": "d8_023",
+          "word": "do",
+          "ipa": "/du/",
+          "pos": "mix",
+          "meaning_cn": "做",
+          "example_en": "Do it.",
+          "example_cn": "做这件事。",
+          "hint": "首字母 d"
+        },
+        {
+          "id": "d8_024",
+          "word": "water",
+          "ipa": "/ˈwɔtər/",
+          "pos": "mix",
+          "meaning_cn": "水",
+          "example_en": "Drink some water.",
+          "example_cn": "喝点水。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d8_025",
+          "word": "about",
+          "ipa": "/əˈbaʊt/",
+          "pos": "mix",
+          "meaning_cn": "关于",
+          "example_en": "About you.",
+          "example_cn": "关于你。",
+          "hint": "首字母 a"
+        },
+        {
+          "id": "d8_026",
+          "word": "long",
+          "ipa": "/lɔŋ/",
+          "pos": "mix",
+          "meaning_cn": "长的",
+          "example_en": "Long hair.",
+          "example_cn": "长发。",
+          "hint": "首字母 l"
+        },
+        {
+          "id": "d8_027",
+          "word": "fish",
+          "ipa": "/fɪʃ/",
+          "pos": "mix",
+          "meaning_cn": "鱼",
+          "example_en": "Fish swim in water.",
+          "example_cn": "鱼在水里游。",
+          "hint": "首字母 f"
+        },
+        {
+          "id": "d8_028",
+          "word": "ugly",
+          "ipa": "/ˈʌɡli/",
+          "pos": "mix",
+          "meaning_cn": "丑的",
+          "example_en": "Ugly duckling.",
+          "example_cn": "丑小鸭。",
+          "hint": "首字母 u"
+        },
+        {
+          "id": "d8_029",
+          "word": "join",
+          "ipa": "/dʒɔɪn/",
+          "pos": "mix",
+          "meaning_cn": "加入",
+          "example_en": "Join us.",
+          "example_cn": "加入我们。",
+          "hint": "首字母 j"
+        },
+        {
+          "id": "d8_030",
+          "word": "eat",
+          "ipa": "/it/",
+          "pos": "mix",
+          "meaning_cn": "吃",
+          "example_en": "Eat apple.",
+          "example_cn": "吃苹果。",
+          "hint": "首字母 e"
+        },
+        {
+          "id": "d8_031",
+          "word": "wait",
+          "ipa": "/weɪt/",
+          "pos": "mix",
+          "meaning_cn": "等待",
+          "example_en": "Wait for me.",
+          "example_cn": "等我。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d8_032",
+          "word": "wide",
+          "ipa": "/waɪd/",
+          "pos": "mix",
+          "meaning_cn": "宽的",
+          "example_en": "Wide road.",
+          "example_cn": "宽路。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d8_033",
+          "word": "face",
+          "ipa": "/feɪs/",
+          "pos": "mix",
+          "meaning_cn": "脸",
+          "example_en": "Wash your face.",
+          "example_cn": "洗脸。",
+          "hint": "首字母 f"
+        },
+        {
+          "id": "d8_034",
+          "word": "sad",
+          "ipa": "/sæd/",
+          "pos": "mix",
+          "meaning_cn": "伤心的",
+          "example_en": "Don't be sad.",
+          "example_cn": "别伤心。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d8_035",
+          "word": "zoo",
+          "ipa": "/zu/",
+          "pos": "mix",
+          "meaning_cn": "动物园",
+          "example_en": "Go to the zoo.",
+          "example_cn": "去动物园。",
+          "hint": "首字母 z"
+        },
+        {
+          "id": "d8_036",
+          "word": "queen",
+          "ipa": "/kwin/",
+          "pos": "mix",
+          "meaning_cn": "女王",
+          "example_en": "The queen is here.",
+          "example_cn": "女王来了。",
+          "hint": "首字母 q"
+        },
+        {
+          "id": "d8_037",
+          "word": "deep",
+          "ipa": "/dip/",
+          "pos": "mix",
+          "meaning_cn": "深的",
+          "example_en": "Deep sea.",
+          "example_cn": "深海。",
+          "hint": "首字母 d"
+        },
+        {
+          "id": "d8_038",
+          "word": "now",
+          "ipa": "/naʊ/",
+          "pos": "mix",
+          "meaning_cn": "现在",
+          "example_en": "Do it now.",
+          "example_cn": "现在做。",
+          "hint": "首字母 n"
+        },
+        {
+          "id": "d8_039",
+          "word": "well",
+          "ipa": "/wɛl/",
+          "pos": "mix",
+          "meaning_cn": "好",
+          "example_en": "Well done.",
+          "example_cn": "做得好。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d8_040",
+          "word": "door",
+          "ipa": "/dɔr/",
+          "pos": "mix",
+          "meaning_cn": "门",
+          "example_en": "Open the door.",
+          "example_cn": "开门。",
+          "hint": "首字母 d"
+        },
+        {
+          "id": "d8_041",
+          "word": "orange",
+          "ipa": "/ˈɔrɪndʒ/",
+          "pos": "mix",
+          "meaning_cn": "橙子",
+          "example_en": "An orange is round.",
+          "example_cn": "橙子是圆的。",
+          "hint": "首字母 o"
+        },
+        {
+          "id": "d8_042",
+          "word": "black",
+          "ipa": "/blæk/",
+          "pos": "mix",
+          "meaning_cn": "黑色的",
+          "example_en": "Black cat.",
+          "example_cn": "黑猫。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d8_043",
+          "word": "mad",
+          "ipa": "/mæd/",
+          "pos": "mix",
+          "meaning_cn": "生气的",
+          "example_en": "Are you mad?",
+          "example_cn": "你生气了吗？",
+          "hint": "首字母 m"
+        },
+        {
+          "id": "d8_044",
+          "word": "for",
+          "ipa": "/fɔr/",
+          "pos": "mix",
+          "meaning_cn": "为了",
+          "example_en": "For you.",
+          "example_cn": "为了你。",
+          "hint": "首字母 f"
+        },
+        {
+          "id": "d8_045",
+          "word": "cut",
+          "ipa": "/kʌt/",
+          "pos": "mix",
+          "meaning_cn": "切",
+          "example_en": "Cut paper.",
+          "example_cn": "切纸。",
+          "hint": "首字母 c"
+        },
+        {
+          "id": "d8_046",
+          "word": "hit",
+          "ipa": "/hɪt/",
+          "pos": "mix",
+          "meaning_cn": "打",
+          "example_en": "Hit ball.",
+          "example_cn": "打球。",
+          "hint": "首字母 h"
+        },
+        {
+          "id": "d8_047",
+          "word": "before",
+          "ipa": "/bɪˈfɔr/",
+          "pos": "mix",
+          "meaning_cn": "在之前",
+          "example_en": "Before lunch.",
+          "example_cn": "午饭前。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d8_048",
+          "word": "fry",
+          "ipa": "/fraɪ/",
+          "pos": "mix",
+          "meaning_cn": "油炸",
+          "example_en": "Fry egg.",
+          "example_cn": "煎蛋。",
+          "hint": "首字母 f"
+        },
+        {
+          "id": "d8_049",
+          "word": "milk",
+          "ipa": "/mɪlk/",
+          "pos": "mix",
+          "meaning_cn": "牛奶",
+          "example_en": "Drink milk.",
+          "example_cn": "喝牛奶。",
+          "hint": "首字母 m"
+        },
+        {
+          "id": "d8_050",
+          "word": "any",
+          "ipa": "/ˈɛni/",
+          "pos": "mix",
+          "meaning_cn": "任何",
+          "example_en": "Any time.",
+          "example_cn": "任何时间。",
+          "hint": "首字母 a"
+        }
+      ],
+      "homework": {
+        "title": "今日小作业",
+        "description": "选一对易混词，分别造句。",
+        "placeholder": "例如：I look at the picture. I see a bird."
+      },
+      "review_questions": [
+        "say, speak, talk, tell 的区别？",
+        "look, see, watch 的区别？",
+        "listen 和 hear 的区别？"
+      ],
+      "common_errors": []
+    },
+    {
+      "day": 9,
+      "title": "混合强化（拼写/听写）",
+      "goals": [
+        "强化单词拼写能力",
+        "提高听音辨词能力",
+        "综合运用所学词汇"
+      ],
+      "methods": [
+        {
+          "title": "听写练习",
+          "content": "播放单词发音，尝试写出单词。"
+        },
+        {
+          "title": "拼写游戏",
+          "content": "玩单词接龙或拼字游戏。"
+        },
+        {
+          "title": "盲打练习",
+          "content": "尝试不看键盘输入单词。"
+        }
+      ],
+      "words": [
+        {
+          "id": "d9_001",
+          "word": "use",
+          "ipa": "/juz/",
+          "pos": "mix",
+          "meaning_cn": "使用",
+          "example_en": "Use pen.",
+          "example_cn": "用钢笔。",
+          "hint": "首字母 u"
+        },
+        {
+          "id": "d9_002",
+          "word": "here",
+          "ipa": "/hɪr/",
+          "pos": "mix",
+          "meaning_cn": "这里",
+          "example_en": "Come here.",
+          "example_cn": "来这里。",
+          "hint": "首字母 h"
+        },
+        {
+          "id": "d9_003",
+          "word": "strong",
+          "ipa": "/strɔŋ/",
+          "pos": "mix",
+          "meaning_cn": "强壮的",
+          "example_en": "Strong man.",
+          "example_cn": "强壮的人。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d9_004",
+          "word": "ugly",
+          "ipa": "/ˈʌɡli/",
+          "pos": "mix",
+          "meaning_cn": "丑的",
+          "example_en": "Ugly duckling.",
+          "example_cn": "丑小鸭。",
+          "hint": "首字母 u"
+        },
+        {
+          "id": "d9_005",
+          "word": "leg",
+          "ipa": "/lɛɡ/",
+          "pos": "mix",
+          "meaning_cn": "腿",
+          "example_en": "My leg hurts.",
+          "example_cn": "我的腿疼。",
+          "hint": "首字母 l"
+        },
+        {
+          "id": "d9_006",
+          "word": "cake",
+          "ipa": "/keɪk/",
+          "pos": "mix",
+          "meaning_cn": "蛋糕",
+          "example_en": "Eat cake.",
+          "example_cn": "吃蛋糕。",
+          "hint": "首字母 c"
+        },
+        {
+          "id": "d9_007",
+          "word": "but",
+          "ipa": "/bʌt/",
+          "pos": "mix",
+          "meaning_cn": "但是",
+          "example_en": "But why?",
+          "example_cn": "但是为什么？",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d9_008",
+          "word": "book",
+          "ipa": "/bʊk/",
+          "pos": "mix",
+          "meaning_cn": "书",
+          "example_en": "Read a book.",
+          "example_cn": "读一本书。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d9_009",
+          "word": "black",
+          "ipa": "/blæk/",
+          "pos": "mix",
+          "meaning_cn": "黑色的",
+          "example_en": "Black cat.",
+          "example_cn": "黑猫。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d9_010",
+          "word": "die",
+          "ipa": "/daɪ/",
+          "pos": "mix",
+          "meaning_cn": "死",
+          "example_en": "Flowers die.",
+          "example_cn": "花谢了。",
+          "hint": "首字母 d"
+        },
+        {
+          "id": "d9_011",
+          "word": "never",
+          "ipa": "/ˈnɛvər/",
+          "pos": "mix",
+          "meaning_cn": "从不",
+          "example_en": "Never give up.",
+          "example_cn": "永不放弃。",
+          "hint": "首字母 n"
+        },
+        {
+          "id": "d9_012",
+          "word": "on",
+          "ipa": "/ɑn/",
+          "pos": "mix",
+          "meaning_cn": "在上面",
+          "example_en": "On the table.",
+          "example_cn": "在桌上。",
+          "hint": "首字母 o"
+        },
+        {
+          "id": "d9_013",
+          "word": "umbrella",
+          "ipa": "/ʌmˈbrɛlə/",
+          "pos": "mix",
+          "meaning_cn": "雨伞",
+          "example_en": "Take an umbrella.",
+          "example_cn": "带把伞。",
+          "hint": "首字母 u"
+        },
+        {
+          "id": "d9_014",
+          "word": "wrong",
+          "ipa": "/rɔŋ/",
+          "pos": "mix",
+          "meaning_cn": "错的",
+          "example_en": "Wrong way.",
+          "example_cn": "错路。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d9_015",
+          "word": "sit",
+          "ipa": "/sɪt/",
+          "pos": "mix",
+          "meaning_cn": "坐",
+          "example_en": "Sit down.",
+          "example_cn": "坐下。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d9_016",
+          "word": "there",
+          "ipa": "/ðɛr/",
+          "pos": "mix",
+          "meaning_cn": "那里",
+          "example_en": "Go there.",
+          "example_cn": "去那里。",
+          "hint": "首字母 t"
+        },
+        {
+          "id": "d9_017",
+          "word": "to",
+          "ipa": "/tu/",
+          "pos": "mix",
+          "meaning_cn": "去/给",
+          "example_en": "To school.",
+          "example_cn": "去学校。",
+          "hint": "首字母 t"
+        },
+        {
+          "id": "d9_018",
+          "word": "key",
+          "ipa": "/ki/",
+          "pos": "mix",
+          "meaning_cn": "钥匙",
+          "example_en": "Where is my key?",
+          "example_cn": "我的钥匙在哪？",
+          "hint": "首字母 k"
+        },
+        {
+          "id": "d9_019",
+          "word": "wide",
+          "ipa": "/waɪd/",
+          "pos": "mix",
+          "meaning_cn": "宽的",
+          "example_en": "Wide road.",
+          "example_cn": "宽路。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d9_020",
+          "word": "way",
+          "ipa": "/weɪ/",
+          "pos": "mix",
+          "meaning_cn": "路",
+          "example_en": "This way.",
+          "example_cn": "这边走。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d9_021",
+          "word": "run",
+          "ipa": "/rʌn/",
+          "pos": "mix",
+          "meaning_cn": "跑",
+          "example_en": "Run fast.",
+          "example_cn": "快跑。",
+          "hint": "首字母 r"
+        },
+        {
+          "id": "d9_022",
+          "word": "jump",
+          "ipa": "/dʒʌmp/",
+          "pos": "mix",
+          "meaning_cn": "跳",
+          "example_en": "Jump high.",
+          "example_cn": "跳得高。",
+          "hint": "首字母 j"
+        },
+        {
+          "id": "d9_023",
+          "word": "school",
+          "ipa": "/skul/",
+          "pos": "mix",
+          "meaning_cn": "学校",
+          "example_en": "Go to school.",
+          "example_cn": "去上学。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d9_024",
+          "word": "at",
+          "ipa": "/æt/",
+          "pos": "mix",
+          "meaning_cn": "在",
+          "example_en": "At home.",
+          "example_cn": "在家。",
+          "hint": "首字母 a"
+        },
+        {
+          "id": "d9_025",
+          "word": "mad",
+          "ipa": "/mæd/",
+          "pos": "mix",
+          "meaning_cn": "生气的",
+          "example_en": "Are you mad?",
+          "example_cn": "你生气了吗？",
+          "hint": "首字母 m"
+        },
+        {
+          "id": "d9_026",
+          "word": "name",
+          "ipa": "/neɪm/",
+          "pos": "mix",
+          "meaning_cn": "名字",
+          "example_en": "My name is Tom.",
+          "example_cn": "我叫汤姆。",
+          "hint": "首字母 n"
+        },
+        {
+          "id": "d9_027",
+          "word": "eye",
+          "ipa": "/aɪ/",
+          "pos": "mix",
+          "meaning_cn": "眼睛",
+          "example_en": "Close your eyes.",
+          "example_cn": "闭上眼睛。",
+          "hint": "首字母 e"
+        },
+        {
+          "id": "d9_028",
+          "word": "juice",
+          "ipa": "/dʒus/",
+          "pos": "mix",
+          "meaning_cn": "果汁",
+          "example_en": "Orange juice.",
+          "example_cn": "橙汁。",
+          "hint": "首字母 j"
+        },
+        {
+          "id": "d9_029",
+          "word": "end",
+          "ipa": "/ɛnd/",
+          "pos": "mix",
+          "meaning_cn": "结束",
+          "example_en": "End story.",
+          "example_cn": "结束故事。",
+          "hint": "首字母 e"
+        },
+        {
+          "id": "d9_030",
+          "word": "down",
+          "ipa": "/daʊn/",
+          "pos": "mix",
+          "meaning_cn": "向下",
+          "example_en": "Sit down.",
+          "example_cn": "坐下。",
+          "hint": "首字母 d"
+        },
+        {
+          "id": "d9_031",
+          "word": "queen",
+          "ipa": "/kwin/",
+          "pos": "mix",
+          "meaning_cn": "女王",
+          "example_en": "The queen is here.",
+          "example_cn": "女王来了。",
+          "hint": "首字母 q"
+        },
+        {
+          "id": "d9_032",
+          "word": "deep",
+          "ipa": "/dip/",
+          "pos": "mix",
+          "meaning_cn": "深的",
+          "example_en": "Deep sea.",
+          "example_cn": "深海。",
+          "hint": "首字母 d"
+        },
+        {
+          "id": "d9_033",
+          "word": "car",
+          "ipa": "/kɑr/",
+          "pos": "mix",
+          "meaning_cn": "车",
+          "example_en": "Drive a car.",
+          "example_cn": "开车。",
+          "hint": "首字母 c"
+        },
+        {
+          "id": "d9_034",
+          "word": "early",
+          "ipa": "/ˈɜrli/",
+          "pos": "mix",
+          "meaning_cn": "早的",
+          "example_en": "Wake up early.",
+          "example_cn": "早起。",
+          "hint": "首字母 e"
+        },
+        {
+          "id": "d9_035",
+          "word": "dry",
+          "ipa": "/draɪ/",
+          "pos": "mix",
+          "meaning_cn": "干的",
+          "example_en": "Dry clothes.",
+          "example_cn": "干衣服。",
+          "hint": "首字母 d"
+        },
+        {
+          "id": "d9_036",
+          "word": "ill",
+          "ipa": "/ɪl/",
+          "pos": "mix",
+          "meaning_cn": "生病的",
+          "example_en": "He is ill.",
+          "example_cn": "他病了。",
+          "hint": "首字母 i"
+        },
+        {
+          "id": "d9_037",
+          "word": "help",
+          "ipa": "/hɛlp/",
+          "pos": "mix",
+          "meaning_cn": "帮助",
+          "example_en": "Help me.",
+          "example_cn": "帮帮我。",
+          "hint": "首字母 h"
+        },
+        {
+          "id": "d9_038",
+          "word": "water",
+          "ipa": "/ˈwɔtər/",
+          "pos": "mix",
+          "meaning_cn": "水",
+          "example_en": "Drink some water.",
+          "example_cn": "喝点水。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d9_039",
+          "word": "this",
+          "ipa": "/ðɪs/",
+          "pos": "mix",
+          "meaning_cn": "这个",
+          "example_en": "This one.",
+          "example_cn": "这个。",
+          "hint": "首字母 t"
+        },
+        {
+          "id": "d9_040",
+          "word": "easy",
+          "ipa": "/ˈizi/",
+          "pos": "mix",
+          "meaning_cn": "容易的",
+          "example_en": "It is easy.",
+          "example_cn": "这很容易。",
+          "hint": "首字母 e"
+        },
+        {
+          "id": "d9_041",
+          "word": "buy",
+          "ipa": "/baɪ/",
+          "pos": "mix",
+          "meaning_cn": "买",
+          "example_en": "Buy food.",
+          "example_cn": "买食物。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d9_042",
+          "word": "busy",
+          "ipa": "/ˈbɪzi/",
+          "pos": "mix",
+          "meaning_cn": "忙的",
+          "example_en": "I am busy.",
+          "example_cn": "我很忙。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d9_043",
+          "word": "blue",
+          "ipa": "/blu/",
+          "pos": "mix",
+          "meaning_cn": "蓝色的",
+          "example_en": "Blue sky.",
+          "example_cn": "蓝天。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d9_044",
+          "word": "love",
+          "ipa": "/lʌv/",
+          "pos": "mix",
+          "meaning_cn": "爱",
+          "example_en": "I love you.",
+          "example_cn": "我爱你。",
+          "hint": "首字母 l"
+        },
+        {
+          "id": "d9_045",
+          "word": "cold",
+          "ipa": "/koʊld/",
+          "pos": "mix",
+          "meaning_cn": "冷的",
+          "example_en": "Cold water.",
+          "example_cn": "冷水。",
+          "hint": "首字母 c"
+        },
+        {
+          "id": "d9_046",
+          "word": "much",
+          "ipa": "/mʌtʃ/",
+          "pos": "mix",
+          "meaning_cn": "许多",
+          "example_en": "Too much.",
+          "example_cn": "太多了。",
+          "hint": "首字母 m"
+        },
+        {
+          "id": "d9_047",
+          "word": "fly",
+          "ipa": "/flaɪ/",
+          "pos": "mix",
+          "meaning_cn": "飞",
+          "example_en": "Birds fly.",
+          "example_cn": "鸟飞。",
+          "hint": "首字母 f"
+        },
+        {
+          "id": "d9_048",
+          "word": "orange",
+          "ipa": "/ˈɔrɪndʒ/",
+          "pos": "mix",
+          "meaning_cn": "橙子",
+          "example_en": "An orange is round.",
+          "example_cn": "橙子是圆的。",
+          "hint": "首字母 o"
+        },
+        {
+          "id": "d9_049",
+          "word": "weak",
+          "ipa": "/wik/",
+          "pos": "mix",
+          "meaning_cn": "虚弱的",
+          "example_en": "Weak body.",
+          "example_cn": "虚弱的身体。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d9_050",
+          "word": "add",
+          "ipa": "/æd/",
+          "pos": "mix",
+          "meaning_cn": "增加",
+          "example_en": "Add sugar.",
+          "example_cn": "加糖。",
+          "hint": "首字母 a"
+        }
+      ],
+      "homework": {
+        "title": "今日小作业",
+        "description": "听写10个你觉得最难拼的单词。",
+        "placeholder": "自我检查，无需提交。"
+      },
+      "review_questions": [
+        "你觉得哪个词最难拼？",
+        "听写正确率如何？",
+        "有没有发现什么拼写规律？"
+      ],
+      "common_errors": []
+    },
+    {
+      "day": 10,
+      "title": "总复习 + 模拟测验",
+      "goals": [
+        "全面复习10天所学",
+        "检测学习成果",
+        "制定后续学习计划"
+      ],
+      "methods": [
+        {
+          "title": "全量复习",
+          "content": "浏览所有单词，标记出仍未掌握的。"
+        },
+        {
+          "title": "模拟测试",
+          "content": "完成一套综合测试题。"
+        },
+        {
+          "title": "错题重做",
+          "content": "重点攻克错题本中的单词。"
+        }
+      ],
+      "words": [
+        {
+          "id": "d10_001",
+          "word": "cry",
+          "ipa": "/kraɪ/",
+          "pos": "mix",
+          "meaning_cn": "哭",
+          "example_en": "Don't cry.",
+          "example_cn": "别哭。",
+          "hint": "首字母 c"
+        },
+        {
+          "id": "d10_002",
+          "word": "ice",
+          "ipa": "/aɪs/",
+          "pos": "mix",
+          "meaning_cn": "冰",
+          "example_en": "Ice is cold.",
+          "example_cn": "冰是冷的。",
+          "hint": "首字母 i"
+        },
+        {
+          "id": "d10_003",
+          "word": "keep",
+          "ipa": "/kip/",
+          "pos": "mix",
+          "meaning_cn": "保持",
+          "example_en": "Keep quiet.",
+          "example_cn": "保持安静。",
+          "hint": "首字母 k"
+        },
+        {
+          "id": "d10_004",
+          "word": "yell",
+          "ipa": "/jɛl/",
+          "pos": "mix",
+          "meaning_cn": "大叫",
+          "example_en": "Don't yell.",
+          "example_cn": "别大叫。",
+          "hint": "首字母 y"
+        },
+        {
+          "id": "d10_005",
+          "word": "dry",
+          "ipa": "/draɪ/",
+          "pos": "mix",
+          "meaning_cn": "弄干",
+          "example_en": "Dry hair.",
+          "example_cn": "弄干头发。",
+          "hint": "首字母 d"
+        },
+        {
+          "id": "d10_006",
+          "word": "dog",
+          "ipa": "/dɔɡ/",
+          "pos": "mix",
+          "meaning_cn": "狗",
+          "example_en": "I have a dog.",
+          "example_cn": "我有一只狗。",
+          "hint": "首字母 d"
+        },
+        {
+          "id": "d10_007",
+          "word": "dry",
+          "ipa": "/draɪ/",
+          "pos": "mix",
+          "meaning_cn": "干的",
+          "example_en": "Dry clothes.",
+          "example_cn": "干衣服。",
+          "hint": "首字母 d"
+        },
+        {
+          "id": "d10_008",
+          "word": "use",
+          "ipa": "/juz/",
+          "pos": "mix",
+          "meaning_cn": "使用",
+          "example_en": "Use pen.",
+          "example_cn": "用钢笔。",
+          "hint": "首字母 u"
+        },
+        {
+          "id": "d10_009",
+          "word": "add",
+          "ipa": "/æd/",
+          "pos": "mix",
+          "meaning_cn": "增加",
+          "example_en": "Add sugar.",
+          "example_cn": "加糖。",
+          "hint": "首字母 a"
+        },
+        {
+          "id": "d10_010",
+          "word": "busy",
+          "ipa": "/ˈbɪzi/",
+          "pos": "mix",
+          "meaning_cn": "忙的",
+          "example_en": "I am busy.",
+          "example_cn": "我很忙。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d10_011",
+          "word": "no",
+          "ipa": "/noʊ/",
+          "pos": "mix",
+          "meaning_cn": "不",
+          "example_en": "No, thanks.",
+          "example_cn": "不，谢谢。",
+          "hint": "首字母 n"
+        },
+        {
+          "id": "d10_012",
+          "word": "tea",
+          "ipa": "/ti/",
+          "pos": "mix",
+          "meaning_cn": "茶",
+          "example_en": "Cup of tea.",
+          "example_cn": "一杯茶。",
+          "hint": "首字母 t"
+        },
+        {
+          "id": "d10_013",
+          "word": "ever",
+          "ipa": "/ˈɛvər/",
+          "pos": "mix",
+          "meaning_cn": "曾经",
+          "example_en": "Ever seen?",
+          "example_cn": "见过吗？",
+          "hint": "首字母 e"
+        },
+        {
+          "id": "d10_014",
+          "word": "join",
+          "ipa": "/dʒɔɪn/",
+          "pos": "mix",
+          "meaning_cn": "加入",
+          "example_en": "Join us.",
+          "example_cn": "加入我们。",
+          "hint": "首字母 j"
+        },
+        {
+          "id": "d10_015",
+          "word": "more",
+          "ipa": "/mɔr/",
+          "pos": "mix",
+          "meaning_cn": "更多",
+          "example_en": "More water.",
+          "example_cn": "更多水。",
+          "hint": "首字母 m"
+        },
+        {
+          "id": "d10_016",
+          "word": "true",
+          "ipa": "/tru/",
+          "pos": "mix",
+          "meaning_cn": "真的",
+          "example_en": "True story.",
+          "example_cn": "真实故事。",
+          "hint": "首字母 t"
+        },
+        {
+          "id": "d10_017",
+          "word": "tree",
+          "ipa": "/tri/",
+          "pos": "mix",
+          "meaning_cn": "树",
+          "example_en": "Climb a tree.",
+          "example_cn": "爬树。",
+          "hint": "首字母 t"
+        },
+        {
+          "id": "d10_018",
+          "word": "poor",
+          "ipa": "/pʊr/",
+          "pos": "mix",
+          "meaning_cn": "穷的",
+          "example_en": "Poor guy.",
+          "example_cn": "可怜的家伙。",
+          "hint": "首字母 p"
+        },
+        {
+          "id": "d10_019",
+          "word": "soft",
+          "ipa": "/sɔft/",
+          "pos": "mix",
+          "meaning_cn": "软的",
+          "example_en": "Soft bed.",
+          "example_cn": "软床。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d10_020",
+          "word": "love",
+          "ipa": "/lʌv/",
+          "pos": "mix",
+          "meaning_cn": "爱",
+          "example_en": "I love you.",
+          "example_cn": "我爱你。",
+          "hint": "首字母 l"
+        },
+        {
+          "id": "d10_021",
+          "word": "help",
+          "ipa": "/hɛlp/",
+          "pos": "mix",
+          "meaning_cn": "帮助",
+          "example_en": "Help me.",
+          "example_cn": "帮帮我。",
+          "hint": "首字母 h"
+        },
+        {
+          "id": "d10_022",
+          "word": "leg",
+          "ipa": "/lɛɡ/",
+          "pos": "mix",
+          "meaning_cn": "腿",
+          "example_en": "My leg hurts.",
+          "example_cn": "我的腿疼。",
+          "hint": "首字母 l"
+        },
+        {
+          "id": "d10_023",
+          "word": "on",
+          "ipa": "/ɑn/",
+          "pos": "mix",
+          "meaning_cn": "在上面",
+          "example_en": "On the table.",
+          "example_cn": "在桌上。",
+          "hint": "首字母 o"
+        },
+        {
+          "id": "d10_024",
+          "word": "yellow",
+          "ipa": "/ˈjɛloʊ/",
+          "pos": "mix",
+          "meaning_cn": "黄色的",
+          "example_en": "Yellow banana.",
+          "example_cn": "黄香蕉。",
+          "hint": "首字母 y"
+        },
+        {
+          "id": "d10_025",
+          "word": "wide",
+          "ipa": "/waɪd/",
+          "pos": "mix",
+          "meaning_cn": "宽的",
+          "example_en": "Wide road.",
+          "example_cn": "宽路。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d10_026",
+          "word": "to",
+          "ipa": "/tu/",
+          "pos": "mix",
+          "meaning_cn": "去/给",
+          "example_en": "To school.",
+          "example_cn": "去学校。",
+          "hint": "首字母 t"
+        },
+        {
+          "id": "d10_027",
+          "word": "clean",
+          "ipa": "/klin/",
+          "pos": "mix",
+          "meaning_cn": "干净的",
+          "example_en": "Clean room.",
+          "example_cn": "干净的房间。",
+          "hint": "首字母 c"
+        },
+        {
+          "id": "d10_028",
+          "word": "if",
+          "ipa": "/ɪf/",
+          "pos": "mix",
+          "meaning_cn": "如果",
+          "example_en": "If you can.",
+          "example_cn": "如果你能。",
+          "hint": "首字母 i"
+        },
+        {
+          "id": "d10_029",
+          "word": "tall",
+          "ipa": "/tɔl/",
+          "pos": "mix",
+          "meaning_cn": "高的",
+          "example_en": "Tall tree.",
+          "example_cn": "高树。",
+          "hint": "首字母 t"
+        },
+        {
+          "id": "d10_030",
+          "word": "say",
+          "ipa": "/seɪ/",
+          "pos": "mix",
+          "meaning_cn": "说",
+          "example_en": "Say yes.",
+          "example_cn": "说是。",
+          "hint": "首字母 s"
+        },
+        {
+          "id": "d10_031",
+          "word": "year",
+          "ipa": "/jɪr/",
+          "pos": "mix",
+          "meaning_cn": "年",
+          "example_en": "Last year.",
+          "example_cn": "去年。",
+          "hint": "首字母 y"
+        },
+        {
+          "id": "d10_032",
+          "word": "happy",
+          "ipa": "/ˈhæpi/",
+          "pos": "mix",
+          "meaning_cn": "快乐的",
+          "example_en": "Happy birthday.",
+          "example_cn": "生日快乐。",
+          "hint": "首字母 h"
+        },
+        {
+          "id": "d10_033",
+          "word": "by",
+          "ipa": "/baɪ/",
+          "pos": "mix",
+          "meaning_cn": "通过",
+          "example_en": "By bus.",
+          "example_cn": "乘公交。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d10_034",
+          "word": "kite",
+          "ipa": "/kaɪt/",
+          "pos": "mix",
+          "meaning_cn": "风筝",
+          "example_en": "Fly a kite.",
+          "example_cn": "放风筝。",
+          "hint": "首字母 k"
+        },
+        {
+          "id": "d10_035",
+          "word": "too",
+          "ipa": "/tu/",
+          "pos": "mix",
+          "meaning_cn": "也/太",
+          "example_en": "Me too.",
+          "example_cn": "我也是。",
+          "hint": "首字母 t"
+        },
+        {
+          "id": "d10_036",
+          "word": "new",
+          "ipa": "/nu/",
+          "pos": "mix",
+          "meaning_cn": "新的",
+          "example_en": "New car.",
+          "example_cn": "新车。",
+          "hint": "首字母 n"
+        },
+        {
+          "id": "d10_037",
+          "word": "need",
+          "ipa": "/nid/",
+          "pos": "mix",
+          "meaning_cn": "需要",
+          "example_en": "Need help.",
+          "example_cn": "需要帮助。",
+          "hint": "首字母 n"
+        },
+        {
+          "id": "d10_038",
+          "word": "there",
+          "ipa": "/ðɛr/",
+          "pos": "mix",
+          "meaning_cn": "那里",
+          "example_en": "Go there.",
+          "example_cn": "去那里。",
+          "hint": "首字母 t"
+        },
+        {
+          "id": "d10_039",
+          "word": "weak",
+          "ipa": "/wik/",
+          "pos": "mix",
+          "meaning_cn": "虚弱的",
+          "example_en": "Weak body.",
+          "example_cn": "虚弱的身体。",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d10_040",
+          "word": "at",
+          "ipa": "/æt/",
+          "pos": "mix",
+          "meaning_cn": "在",
+          "example_en": "At home.",
+          "example_cn": "在家。",
+          "hint": "首字母 a"
+        },
+        {
+          "id": "d10_041",
+          "word": "hug",
+          "ipa": "/hʌɡ/",
+          "pos": "mix",
+          "meaning_cn": "拥抱",
+          "example_en": "Hug me.",
+          "example_cn": "抱抱我。",
+          "hint": "首字母 h"
+        },
+        {
+          "id": "d10_042",
+          "word": "book",
+          "ipa": "/bʊk/",
+          "pos": "mix",
+          "meaning_cn": "书",
+          "example_en": "Read a book.",
+          "example_cn": "读一本书。",
+          "hint": "首字母 b"
+        },
+        {
+          "id": "d10_043",
+          "word": "mad",
+          "ipa": "/mæd/",
+          "pos": "mix",
+          "meaning_cn": "生气的",
+          "example_en": "Are you mad?",
+          "example_cn": "你生气了吗？",
+          "hint": "首字母 m"
+        },
+        {
+          "id": "d10_044",
+          "word": "yes",
+          "ipa": "/jɛs/",
+          "pos": "mix",
+          "meaning_cn": "是",
+          "example_en": "Yes, I do.",
+          "example_cn": "是的，我愿意。",
+          "hint": "首字母 y"
+        },
+        {
+          "id": "d10_045",
+          "word": "food",
+          "ipa": "/fud/",
+          "pos": "mix",
+          "meaning_cn": "食物",
+          "example_en": "Good food.",
+          "example_cn": "好吃的食物。",
+          "hint": "首字母 f"
+        },
+        {
+          "id": "d10_046",
+          "word": "not",
+          "ipa": "/nɑt/",
+          "pos": "mix",
+          "meaning_cn": "不",
+          "example_en": "Not me.",
+          "example_cn": "不是我。",
+          "hint": "首字母 n"
+        },
+        {
+          "id": "d10_047",
+          "word": "nod",
+          "ipa": "/nɑd/",
+          "pos": "mix",
+          "meaning_cn": "点头",
+          "example_en": "Nod head.",
+          "example_cn": "点头。",
+          "hint": "首字母 n"
+        },
+        {
+          "id": "d10_048",
+          "word": "rich",
+          "ipa": "/rɪtʃ/",
+          "pos": "mix",
+          "meaning_cn": "富有的",
+          "example_en": "Rich man.",
+          "example_cn": "富人。",
+          "hint": "首字母 r"
+        },
+        {
+          "id": "d10_049",
+          "word": "when",
+          "ipa": "/wɛn/",
+          "pos": "mix",
+          "meaning_cn": "什么时候",
+          "example_en": "When to go?",
+          "example_cn": "什么时候去？",
+          "hint": "首字母 w"
+        },
+        {
+          "id": "d10_050",
+          "word": "open",
+          "ipa": "/ˈoʊpən/",
+          "pos": "mix",
+          "meaning_cn": "开着的",
+          "example_en": "Open door.",
+          "example_cn": "开着的门。",
+          "hint": "首字母 o"
+        }
+      ],
+      "homework": {
+        "title": "今日小作业",
+        "description": "写下你对未来英语学习的计划。",
+        "placeholder": "例如：I will read English news every day."
+      },
+      "review_questions": [
+        "这10天你最大的收获是什么？",
+        "你掌握了多少个单词？",
+        "下一步打算怎么学？"
+      ],
+      "common_errors": []
+    }
+  ]
+}
